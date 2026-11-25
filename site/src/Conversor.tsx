@@ -11,6 +11,7 @@ import { analisarProjeto, normalizarModelo, type AnaliseProjeto, type ResumoProj
 import { formatarBico, formatarBytes, validarArquivo, type Destino, type Relatorio } from "./servicos/formatos";
 import { nomeDoResultado } from "./servicos/nomeDownload";
 import { CONFIGURACAO, NOME_APP, linkContato } from "./configuracao";
+import { contarEvento } from "./servicos/estatistica";
 import { converterNoNavegador, type ConversaoEmAndamento } from "./mensagensWorker";
 import { urlDoPerfil } from "./perfisEstaticos";
 
@@ -154,8 +155,10 @@ export function Conversor() {
     if (r.tipo === "erro") {
       setEtapa({ tipo: "escolha" });
       setErro(r.mensagem);
+      contarEvento("erro na conversão");
       return;
     }
+    contarEvento(`convertido: ${destinoEscolhido.impressora}`);
     const url = URL.createObjectURL(r.arquivo);
     urlAtual.current = url;
     setEtapa({

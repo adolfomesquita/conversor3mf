@@ -18,7 +18,7 @@ A versão anterior (login, área admin, cota, Cloud Functions, App Check) foi ti
 ## Requisitos que valem sempre
 
 - `.3mf` é não confiável, mesmo no navegador: limites de ZIP, zip bomb, path traversal, sem DTD/XXE, nunca executar; G-code, `post_process` e `print_host` nunca copiados.
-- Nada sai do navegador: sem envio de arquivo, nome ou conteúdo para lugar nenhum; sem cookies, estatística ou publicidade (a página de privacidade promete isso).
+- Nada sai do navegador: sem envio de arquivo, nome ou conteúdo para lugar nenhum; sem cookies nem publicidade (a página de privacidade promete isso). Única exceção: a contagem de uso do GoatCounter (decisão do usuário, 25/11/2026), feita em `site/src/servicos/estatistica.ts` sem o script deles: visita (página, origem, navegador, largura da tela; o país o GoatCounter deduz pelo IP) e eventos `convertido: <impressora>` / `erro na conversão`. Nunca pôr nome, conteúdo ou mensagem de erro do arquivo num evento; mudou o que é contado? Mude o texto "Contagem de uso" da privacidade.
 - Resultado no navegador = resultado no Node: mudou a biblioteca (fluxos, ZIP, texto)? Rode `npm test` (inclui `leitorBlob.unidade.test.ts`) e, se mexer em fluxo/ZIP/compressão, a comparação com projetos reais (README, "Como o navegador roda a biblioteca").
 
 ## Decisões de produto

@@ -55,7 +55,7 @@ A conversão roda num Worker (`site/src/conversor.worker.ts`), para a página n�
 
 ## Configuração do site
 
-`site/src/configuracao.ts`: limite de tamanho (300 MB), doação (Pix e/ou link; `null` esconde o quadro "Apoie o projeto") e link do código-fonte. O Pix (QR e copia e cola) é gerado no navegador (`site/src/servicos/pix.ts`); nenhum pagamento passa pelo site.
+`site/src/configuracao.ts`: limite de tamanho (300 MB), doação (Pix e/ou link; `null` esconde o quadro "Apoie o projeto") link do código-fonte, e-mail de contato e endereço de contagem do GoatCounter (`estatistica`; `null` desliga). A contagem (`site/src/servicos/estatistica.ts`) monta o pedido sem carregar script de fora, só no site publicado em https, e respeita Do Not Track/Global Privacy Control; o que é enviado está descrito na página de privacidade. O Pix (QR e copia e cola) é gerado no navegador (`site/src/servicos/pix.ts`); nenhum pagamento passa pelo site.
 
 ## Testes com projetos reais
 

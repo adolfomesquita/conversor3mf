@@ -16,11 +16,17 @@ export const CONFIGURACAO: {
   codigoFonte: string | null;
   /** E-mail público para reportar problemas (link no rodapé, na privacidade e nos erros). null = sem link. */
   contato: string | null;
+  /**
+   * Endereço de contagem do GoatCounter (visitas e conversões, sem cookies). null = nada é contado.
+   * Só conta no site publicado (https), nunca em desenvolvimento nem em endereço local.
+   */
+  estatistica: string | null;
 } = {
   tamanhoMaximoMb: 300,
   doacao: null,
   codigoFonte: "https://github.com/adolfomesquita/conversor3mf",
   contato: "conversor3mf@gmail.com",
+  estatistica: "https://conversor3mf.goatcounter.com/count",
 };
 
 /** Link "mailto:" que abre o programa de e-mail da pessoa; nada é enviado sem ela mandar. */

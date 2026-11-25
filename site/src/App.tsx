@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { CONFIGURACAO, NOME_APP, linkContato } from "./configuracao";
 import { Conversor } from "./Conversor";
+import { contarVisita } from "./servicos/estatistica";
 
 const CONTATO_PROBLEMA = linkContato(`Problema no ${NOME_APP}`);
 
@@ -24,14 +25,24 @@ function Privacidade() {
   return (
     <article className="cartao texto-legal">
       <h1>Privacidade e termos</h1>
-      <p className="versao">Rascunho — revisar antes de publicar</p>
       <h2>Seus arquivos não saem do seu computador</h2>
       <p>
         A conversão é feita inteira no seu navegador. O projeto .3mf que você escolhe é lido e convertido no seu computador e não é enviado a
         nenhum servidor. O arquivo convertido é gerado na memória do navegador e baixado direto para você.
       </p>
       <h2>O que não fazemos</h2>
-      <p>Não há cadastro, login, cookies nem ferramentas de estatística ou publicidade. Não guardamos nada sobre você ou seus arquivos.</p>
+      <p>Não há cadastro, login, cookies nem publicidade. Não guardamos nada sobre você ou seus arquivos.</p>
+      {CONFIGURACAO.estatistica && (
+        <>
+          <h2>Contagem de uso</h2>
+          <p>
+            Contamos quantas pessoas usam o site com o <a href="https://www.goatcounter.com/">GoatCounter</a>, um contador sem cookies. Cada
+            visita envia o endereço desta página, o site de onde você veio, o navegador, a largura da tela e o país (deduzido pelo endereço IP). Cada conversão envia só o nome da
+            impressora de destino, ou que houve um erro. O nome e o conteúdo do seu arquivo nunca são enviados. Segundo o GoatCounter, o endereço
+            IP não é guardado. Se o seu navegador pede para não ser rastreado (Do Not Track ou Global Privacy Control), nada é contado.
+          </p>
+        </>
+      )}
       <h2>Hospedagem</h2>
       <p>
         O site é hospedado no GitHub Pages. Como em qualquer site, o GitHub recebe dados técnicos do acesso (como o endereço IP) para entregar
@@ -71,6 +82,7 @@ function Privacidade() {
 
 export function App() {
   const secao = useSecao();
+  useEffect(() => contarVisita(), []);
   return (
     <div className="pagina">
       <header className="cabecalho">

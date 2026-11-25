@@ -282,11 +282,6 @@ h2 {
   margin: 0 auto;
 }
 
-.versao {
-  color: var(--cor-texto-suave);
-  font-size: 0.875rem;
-}
-
 .dados {
   display: grid;
   grid-template-columns: max-content 1fr;
