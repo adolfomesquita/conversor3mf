@@ -13,7 +13,7 @@ Publicado em https://adolfomesquita.github.io/conversor3mf/ (repositório **púb
 
 ## Versão com servidor (Firebase)
 
-A versão anterior (login, área admin, cota, Cloud Functions, App Check) foi tirada daqui em 24/11/2026 e está no repositório **privado** `adolfomesquita/conversor3mf-firebase` (cópia local em `C:\Dev\conversor3mf-firebase`; lá o workflow do Pages está desativado). **A biblioteca de conversão está duplicada** nos dois repositórios: correção feita aqui não chega lá sozinha (perguntar ao usuário qual é a fonte da verdade antes de portar).
+A versão anterior (login, área admin, cota, Cloud Functions, App Check) foi tirada daqui em 24/11/2026 e está no repositório **privado** `adolfomesquita/conversor3mf-firebase` (cópia local em `C:\Dev\conversor3mf-firebase`; lá o workflow do Pages está desativado). **A biblioteca de conversão está duplicada** nos dois repositórios: **a fonte oficial é este repositório (público)** (decisão do usuário em 25/11/2026). Toda mudança na biblioteca nasce aqui; o repositório privado só copia daqui, quando o usuário pedir.
 
 ## Requisitos que valem sempre
 
