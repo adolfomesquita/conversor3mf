@@ -128,6 +128,25 @@ h2 {
   text-decoration: none;
 }
 
+.marca-grupo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.etiqueta-teste {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: var(--cor-alerta);
+  border: 1px solid color-mix(in srgb, var(--cor-alerta) 45%, transparent);
+  background: color-mix(in srgb, var(--cor-alerta) 10%, transparent);
+  white-space: nowrap;
+}
+
 .menu {
   display: flex;
   align-items: center;

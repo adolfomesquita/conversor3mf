@@ -21,12 +21,15 @@ export const CONFIGURACAO: {
    * Só conta no site publicado (https), nunca em desenvolvimento nem em endereço local.
    */
   estatistica: string | null;
+  /** Etiqueta "Versão de teste" ao lado do nome, no topo. false = escondida. */
+  versaoDeTeste: boolean;
 } = {
   tamanhoMaximoMb: 300,
   doacao: null,
   codigoFonte: "https://github.com/adolfomesquita/conversor3mf",
   contato: "conversor3mf@gmail.com",
   estatistica: "https://conversor3mf.goatcounter.com/count",
+  versaoDeTeste: true,
 };
 
 /** Link "mailto:" que abre o programa de e-mail da pessoa; nada é enviado sem ela mandar. */

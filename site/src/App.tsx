@@ -87,10 +87,20 @@ export function App() {
     <div className="pagina">
       <header className="cabecalho">
         <div className="container cabecalho-conteudo">
-          <a href="#" className="marca">
-            <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width={28} height={28} />
-            {NOME_APP}
-          </a>
+          <div className="marca-grupo">
+            <a href="#" className="marca">
+              <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width={28} height={28} />
+              {NOME_APP}
+            </a>
+            {CONFIGURACAO.versaoDeTeste && (
+              <span
+                className="etiqueta-teste"
+                title="O site ainda está em teste: confira o arquivo no slicer antes de imprimir e, se algo der errado, reporte por e-mail."
+              >
+                Versão de teste
+              </span>
+            )}
+          </div>
           <nav className="menu aberto" aria-label="Principal">
             <a href="#" aria-current={secao === "conversor" ? "page" : undefined}>
               Conversor
