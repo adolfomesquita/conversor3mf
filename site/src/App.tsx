@@ -1,8 +1,10 @@
 // Versão estática: uma página só, com o conversor e o texto de privacidade e termos (#privacidade).
 // Sem rotas do navegador: o GitHub Pages não sabe responder a endereços internos.
 import { useEffect, useState } from "react";
-import { CONFIGURACAO, NOME_APP } from "./configuracao";
+import { CONFIGURACAO, NOME_APP, linkContato } from "./configuracao";
 import { Conversor } from "./Conversor";
+
+const CONTATO_PROBLEMA = linkContato(`Problema no ${NOME_APP}`);
 
 function useSecao(): "conversor" | "privacidade" {
   const ler = (): "conversor" | "privacidade" => (window.location.hash === "#privacidade" ? "privacidade" : "conversor");
@@ -42,6 +44,16 @@ function Privacidade() {
         como está, sem garantia de que a impressão terá o mesmo resultado da impressora de origem. Use só arquivos que você tem o direito de
         usar.
       </p>
+      {CONFIGURACAO.contato && CONTATO_PROBLEMA && (
+        <>
+          <h2>Contato</h2>
+          <p>
+            Para reportar um problema ou tirar uma dúvida, escreva para <a href={CONTATO_PROBLEMA}>{CONFIGURACAO.contato}</a>. O link só abre o seu
+            programa de e-mail: nada é enviado sem você mandar. Se você escrever, recebemos o seu endereço de e-mail e o que estiver na mensagem,
+            e usamos isso só para responder. Se anexar um projeto, envie só arquivos que você pode compartilhar.
+          </p>
+        </>
+      )}
       <h2>Código e licenças</h2>
       <p>
         Os perfis de impressora e as imagens vêm de projetos de código aberto sob a licença AGPL-3.0 (OrcaSlicer, Bambu Studio, Creality Print,
@@ -84,7 +96,9 @@ export function App() {
             © {new Date().getFullYear()} {NOME_APP} · grátis, sem cadastro
           </span>
           <nav aria-label="Legal">
-            <a href="#privacidade">Privacidade e termos</a>          </nav>
+            {CONTATO_PROBLEMA && <a href={CONTATO_PROBLEMA}>Reportar problema</a>}
+            <a href="#privacidade">Privacidade e termos</a>
+          </nav>
         </div>
       </footer>
     </div>

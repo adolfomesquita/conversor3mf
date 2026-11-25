@@ -29,6 +29,7 @@ A versão anterior (login, área admin, cota, Cloud Functions, App Check) foi ti
 - Creality (Creality Print 7.3.1, tag `v7.3.1`): cabeçalho sempre `Creality_Print V7.3.1.6378 Release`; **sem** `creality.config` de propósito; K3 e Sermoon D3 Pro fora; `print_host` dos perfis oficiais sempre esvaziado.
 - Snapmaker (Snapmaker Orca 2.4.1, tag `v2.4.1`): cabeçalho sempre `Snapmaker_Orca-2.4.1`; multicabeçote como troca de ferramenta; projetos do Snapmaker Orca aceitos como origem.
 - Doação voluntária (Pix QR + copia e cola gerados no navegador, link opcional) em `site/src/configuracao.ts`; `doacao: null` esconde o quadro. **A chave Pix ainda não foi informada.**
+- Contato público `conversor3mf@gmail.com` (decisão do usuário, 25/11/2026) em `site/src/configuracao.ts` (`contato`): link "mailto" no rodapé, na privacidade e nos erros de conversão; o e-mail leva só a mensagem de erro, nunca nome ou conteúdo do arquivo. É o único e-mail que pode aparecer no repositório.
 - Tela: arquivo → resumo lido no navegador (origem com foto, filamentos/cores, prévia) → destino → download `<nome original>_<impressora>.3mf`.
 
 ## Pendências

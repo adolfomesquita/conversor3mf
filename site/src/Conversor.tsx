@@ -10,7 +10,7 @@ import { ResumoProjeto } from "./componentes/ResumoProjeto";
 import { analisarProjeto, normalizarModelo, type AnaliseProjeto, type ResumoProjeto as Resumo } from "./servicos/analiseProjeto";
 import { formatarBico, formatarBytes, validarArquivo, type Destino, type Relatorio } from "./servicos/formatos";
 import { nomeDoResultado } from "./servicos/nomeDownload";
-import { CONFIGURACAO } from "./configuracao";
+import { CONFIGURACAO, NOME_APP, linkContato } from "./configuracao";
 import { converterNoNavegador, type ConversaoEmAndamento } from "./mensagensWorker";
 import { urlDoPerfil } from "./perfisEstaticos";
 
@@ -183,6 +183,11 @@ export function Conversor() {
     escolherArquivo(null);
   }
 
+  // O e-mail leva só a mensagem de erro; o nome e o conteúdo do arquivo ficam de fora.
+  const linkErro = erro
+    ? linkContato(`Problema na conversão (${NOME_APP})`, `Mensagem de erro: ${erro}\n\nO que aconteceu (origem do projeto, impressora de destino):\n`)
+    : null;
+
   return (
     <section className="cartao">
       <h1>Converter projeto</h1>
@@ -195,7 +200,17 @@ export function Conversor() {
         navegador.
       </p>
 
-      {erro && <Aviso tipo="erro">{erro}</Aviso>}
+      {erro && (
+        <Aviso tipo="erro">
+          {erro}
+          {linkErro && (
+            <>
+              {" "}
+              Se o problema continuar, <a href={linkErro}>reporte por e-mail</a>.
+            </>
+          )}
+        </Aviso>
+      )}
 
       {etapa.tipo === "fim" ? (
         <div className="resultado-conversao">
