@@ -1,0 +1,46 @@
+# Publica o site (a conversão roda no navegador) no GitHub Pages a cada push na main.
+# Antes do primeiro uso: no GitHub, Settings → Pages → Source: "GitHub Actions".
+# Nada de segredo aqui: o site não tem servidor nem chaves.
+name: Publicar no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      # O site usa a biblioteca de conversao/ (yauzl, yazl, saxes e os tipos deles).
+      # Sem rodar scripts de instalação; os testes da biblioteca rodam antes de publicar.
+      - run: npm ci --prefix conversao --ignore-scripts
+      - run: npm ci --prefix site --ignore-scripts
+      - run: npm --prefix conversao test
+      - run: npm --prefix site run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,3328 @@
+{
+ "formato": 1,
+ "geradoEm": "2026-11-14",
+ "modelos": [
+  {
+   "id": "anycubic-kobra-1",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 1",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-1.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-1-max",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 1 Max",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-1-max.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-1-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-1-plus",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 1 Plus",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-1-plus.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-1-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-2",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 2",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-2.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-2-max",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 2 Max",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-2-max.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-2-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-2-neo",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 2 Neo",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-2-neo.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-2-neo-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-2-plus",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 2 Plus",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-2-plus.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-2-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-2-pro",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 2 Pro",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-2-pro.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-2-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-3",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 3",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um ACE Pro — a confirmar",
+   "capa": "anycubic-kobra-3.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-3-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-3-max",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 3 Max",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um ACE Pro — a confirmar",
+   "capa": "anycubic-kobra-3-max.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-3-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-max-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-max-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-3-max-v2",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 3 Max V2",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um ACE Pro — a confirmar",
+   "capa": "anycubic-kobra-3-max-v2.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-3-max-v2-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-max-v2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-max-v2-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-max-v2-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-3-v2",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 3 V2",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um ACE Pro — a confirmar",
+   "capa": "anycubic-kobra-3-v2.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-3-v2-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-v2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-v2-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-3-v2-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-4",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra 4",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-4.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-4-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-4-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-4-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-4-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-s1",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra S1",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 8,
+   "fonteMaxFilamentos": "decisão do usuário (dois ACE Pro)",
+   "capa": "anycubic-kobra-s1.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-s1-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-s1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "manuais (conferidas no slicer)"
+    },
+    {
+     "id": "anycubic-kobra-s1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-s1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-s1-max",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra S1 Max",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 8,
+   "fonteMaxFilamentos": "assumido por analogia com o Kobra S1 (ACE Pro) — a confirmar",
+   "capa": "anycubic-kobra-s1-max.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-s1-max-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-s1-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-s1-max-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-s1-max-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "anycubic-kobra-x",
+   "fabricante": "Anycubic",
+   "impressora": "Anycubic Kobra X",
+   "slicer": "Anycubic Slicer Next",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "anycubic-kobra-x.png",
+   "perfis": [
+    {
+     "id": "anycubic-kobra-x-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-x-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-x-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "anycubic-kobra-x-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-a1",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab A1",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: AMS lite (4 cores) — a confirmar",
+   "capa": "bambu-lab-a1.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-a1-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-a1-mini",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab A1 mini",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: AMS lite (4 cores) — a confirmar",
+   "capa": "bambu-lab-a1-mini.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-a1-mini-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-mini-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-mini-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a1-mini-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-a2l",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab A2L",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: AMS lite (4 cores) — a confirmar",
+   "capa": "bambu-lab-a2l.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-a2l-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a2l-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a2l-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-a2l-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-h2s",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab H2S",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-h2s.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-h2s-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h2s-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h2s-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h2s-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-h3c",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab H3C",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-h3c.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-h3c-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h3c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h3c-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-h3c-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-p1p",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab P1P",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-p1p.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-p1p-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1p-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1p-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1p-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-p1s",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab P1S",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-p1s.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-p1s-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1s-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1s-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p1s-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-p2s",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab P2S",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-p2s.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-p2s-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p2s-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p2s-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-p2s-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-x1",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab X1",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-x1.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-x1-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-x1-carbon",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab X1 Carbon",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-x1-carbon.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-x1-carbon-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-carbon-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-carbon-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1-carbon-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "bambu-lab-x1e",
+   "fabricante": "Bambu Lab",
+   "impressora": "Bambu Lab X1E",
+   "slicer": "Bambu Studio",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar",
+   "capa": "bambu-lab-x1e.png",
+   "perfis": [
+    {
+     "id": "bambu-lab-x1e-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1e-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1e-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "bambu-lab-x1e-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-6-se",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-6 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-6-se.png",
+   "perfis": [
+    {
+     "id": "creality-cr-6-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-10",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-10",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-10.png",
+   "perfis": [
+    {
+     "id": "creality-cr-10-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-10-se",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-10 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-10-se.png",
+   "perfis": [
+    {
+     "id": "creality-cr-10-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-10-smart",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-10 Smart",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-10-smart.png",
+   "perfis": [
+    {
+     "id": "creality-cr-10-smart-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-10-smart-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-10 Smart Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-10-smart-pro.png",
+   "perfis": [
+    {
+     "id": "creality-cr-10-smart-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-10s-pro-v2",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-10S Pro V2",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-10s-pro-v2.png",
+   "perfis": [
+    {
+     "id": "creality-cr-10s-pro-v2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-20-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-20 Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-20-pro.png",
+   "perfis": [
+    {
+     "id": "creality-cr-20-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-30",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-30",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-30.png",
+   "perfis": [
+    {
+     "id": "creality-cr-30-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-m4",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-M4",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-m4.png",
+   "perfis": [
+    {
+     "id": "creality-cr-m4-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-cr-m4-se",
+   "fabricante": "Creality",
+   "impressora": "Creality CR-M4 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-cr-m4-se.png",
+   "perfis": [
+    {
+     "id": "creality-cr-m4-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-2-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-2 Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-2-pro.png",
+   "perfis": [
+    {
+     "id": "creality-ender-2-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-max",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 Max",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-max.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-max-neo",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 Max Neo",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-max-neo.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-max-neo-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-neo",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 Neo",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-neo.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-neo-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-s1",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 S1",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-s1.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-s1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-s1-plus",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 S1 Plus",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-s1-plus.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-s1-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-s1-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 S1 Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-s1-pro.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-s1-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v2",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V2",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v2.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3-ke",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3 KE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3-ke.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-ke-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3-mega",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3 Mega",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3-mega.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-mega-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-mega-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-mega-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3-neo",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3 Neo",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3-neo.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-neo-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-neo-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-neo-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3-plus",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3 Plus",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3-plus.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-plus-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-3-v3-plus-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v3-se",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V3 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v3-se.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v3-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-3-v4",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-3 V4",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-3-v4.png",
+   "perfis": [
+    {
+     "id": "creality-ender-3-v4-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-5-max",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-5 Max",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-5-max.png",
+   "perfis": [
+    {
+     "id": "creality-ender-5-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-5-max-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-ender-5-max-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-5-plus",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-5 Plus",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-5-plus.png",
+   "perfis": [
+    {
+     "id": "creality-ender-5-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-ender-5-s1",
+   "fabricante": "Creality",
+   "impressora": "Creality Ender-5 S1",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-ender-5-s1.png",
+   "perfis": [
+    {
+     "id": "creality-ender-5-s1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-gs-01",
+   "fabricante": "Creality",
+   "impressora": "Creality GS-01",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-gs-01.png",
+   "perfis": [
+    {
+     "id": "creality-gs-01-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-gs-02",
+   "fabricante": "Creality",
+   "impressora": "Creality GS-02",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-gs-02.png",
+   "perfis": [
+    {
+     "id": "creality-gs-02-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-gs-03",
+   "fabricante": "Creality",
+   "impressora": "Creality GS-03",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-gs-03.png",
+   "perfis": [
+    {
+     "id": "creality-gs-03-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-gs-03-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-gs-03-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-gs-03-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-gs-04",
+   "fabricante": "Creality",
+   "impressora": "Creality GS-04",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-gs-04.png",
+   "perfis": [
+    {
+     "id": "creality-gs-04-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-hi",
+   "fabricante": "Creality",
+   "impressora": "Creality Hi",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: Hi Combo com sistema de 4 cores — a confirmar",
+   "capa": "creality-hi.png",
+   "perfis": [
+    {
+     "id": "creality-hi-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-hi-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-hi-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-hi-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1",
+   "fabricante": "Creality",
+   "impressora": "Creality K1",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-k1.png",
+   "perfis": [
+    {
+     "id": "creality-k1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-max",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 Max",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-k1-max.png",
+   "perfis": [
+    {
+     "id": "creality-k1-max-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-max-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-max-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-max-2025-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 Max 2025 CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1-max-2025-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1-max-2025-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-max-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 Max CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1-max-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1-max-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-se",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-k1-se.png",
+   "perfis": [
+    {
+     "id": "creality-k1-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-se-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1-se-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1-se-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1 SE CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1-se-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1-se-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-k1c.png",
+   "perfis": [
+    {
+     "id": "creality-k1c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1c-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k1c-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1c-2025-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1C 2025 CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1c-2025-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1c-2025-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k1c-cfs-c",
+   "fabricante": "Creality",
+   "impressora": "Creality K1C CFS-C",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar",
+   "capa": "creality-k1c-cfs-c.png",
+   "perfis": [
+    {
+     "id": "creality-k1c-cfs-c-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k2",
+   "fabricante": "Creality",
+   "impressora": "Creality K2",
+   "slicer": "Creality Print",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar",
+   "capa": "creality-k2.png",
+   "perfis": [
+    {
+     "id": "creality-k2-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k2-plus",
+   "fabricante": "Creality",
+   "impressora": "Creality K2 Plus",
+   "slicer": "Creality Print",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar",
+   "capa": "creality-k2-plus.png",
+   "perfis": [
+    {
+     "id": "creality-k2-plus-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-plus-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-plus-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-plus-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k2-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality K2 Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 16,
+   "fonteMaxFilamentos": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar",
+   "capa": "creality-k2-pro.png",
+   "perfis": [
+    {
+     "id": "creality-k2-pro-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-pro-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-k2-pro-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-k2-se",
+   "fabricante": "Creality",
+   "impressora": "Creality K2 SE",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-k2-se.png",
+   "perfis": [
+    {
+     "id": "creality-k2-se-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-mbox",
+   "fabricante": "Creality",
+   "impressora": "Creality mBox",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-mbox.png",
+   "perfis": [
+    {
+     "id": "creality-mbox-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-sermoon-d3",
+   "fabricante": "Creality",
+   "impressora": "Creality Sermoon D3",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-sermoon-d3.png",
+   "perfis": [
+    {
+     "id": "creality-sermoon-d3-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-sermoon-m300",
+   "fabricante": "Creality",
+   "impressora": "Creality Sermoon M300",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-sermoon-m300.png",
+   "perfis": [
+    {
+     "id": "creality-sermoon-m300-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-sermoon-m300-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-sermoon-m300-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-sermoon-v1-pro",
+   "fabricante": "Creality",
+   "impressora": "Creality Sermoon V1 Pro",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-sermoon-v1-pro.png",
+   "perfis": [
+    {
+     "id": "creality-sermoon-v1-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-sonic-ender-3-s1",
+   "fabricante": "Creality",
+   "impressora": "Creality Sonic Ender-3 S1",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-sonic-ender-3-s1.png",
+   "perfis": [
+    {
+     "id": "creality-sonic-ender-3-s1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-sonic-ender-5-s1",
+   "fabricante": "Creality",
+   "impressora": "Creality Sonic Ender-5 S1",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-sonic-ender-5-s1.png",
+   "perfis": [
+    {
+     "id": "creality-sonic-ender-5-s1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "creality-z2",
+   "fabricante": "Creality",
+   "impressora": "Creality Z2",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "creality-z2.png",
+   "perfis": [
+    {
+     "id": "creality-z2-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-z2-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "creality-z2-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "sparkx-i7",
+   "fabricante": "Creality",
+   "impressora": "SPARKX i7",
+   "slicer": "Creality Print",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "assumido: sistema multicor de 4 cores — a confirmar",
+   "capa": "sparkx-i7.png",
+   "perfis": [
+    {
+     "id": "sparkx-i7-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "sparkx-i7-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "sparkx-i7-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "sparkx-i7-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "sparkx-i8",
+   "fabricante": "Creality",
+   "impressora": "SPARKX i8",
+   "slicer": "Creality Print",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "sparkx-i8.png",
+   "perfis": [
+    {
+     "id": "sparkx-i8-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-ad5x",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge AD5X",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "sistema IFS de 4 cores",
+   "capa": "flashforge-ad5x.png",
+   "perfis": [
+    {
+     "id": "flashforge-ad5x-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-ad5x-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-ad5x-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-ad5x-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-adventurer-3-series",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Adventurer 3 Series",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-adventurer-3-series.png",
+   "perfis": [
+    {
+     "id": "flashforge-adventurer-3-series-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-3-series-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-adventurer-5m",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Adventurer 5M",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-adventurer-5m.png",
+   "perfis": [
+    {
+     "id": "flashforge-adventurer-5m-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-adventurer-5m-pro",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Adventurer 5M Pro",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-adventurer-5m-pro.png",
+   "perfis": [
+    {
+     "id": "flashforge-adventurer-5m-pro-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-pro-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-5m-pro-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-adventurer-a5",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Adventurer A5",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-adventurer-a5.png",
+   "perfis": [
+    {
+     "id": "flashforge-adventurer-a5-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-a5-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-a5-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-adventurer-a5-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-creator-5",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Creator 5",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "4 cabeçotes (perfil)",
+   "capa": "flashforge-creator-5.png",
+   "perfis": [
+    {
+     "id": "flashforge-creator-5-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-creator-5-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "manuais (conferidas no slicer)"
+    },
+    {
+     "id": "flashforge-creator-5-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-creator-5-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-creator-5-pro",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Creator 5 Pro",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "4 cabeçotes (perfil)",
+   "capa": "flashforge-creator-5-pro.png",
+   "perfis": [
+    {
+     "id": "flashforge-creator-5-pro-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-creator-5-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-creator-5-pro-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-creator-5-pro-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-guider-3-ultra",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Guider 3 Ultra",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "flashforge-guider-3-ultra.png",
+   "perfis": [
+    {
+     "id": "flashforge-guider-3-ultra-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider-3-ultra-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider-3-ultra-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-guider4",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Guider4",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-guider4.png",
+   "perfis": [
+    {
+     "id": "flashforge-guider4-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-0.4hf",
+     "bico": 0.4,
+     "variante": "0.4 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-0.6hf",
+     "bico": 0.6,
+     "variante": "0.6 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-0.8hf",
+     "bico": 0.8,
+     "variante": "0.8 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "flashforge-guider4-pro",
+   "fabricante": "Flashforge",
+   "impressora": "Flashforge Guider4 Pro",
+   "slicer": "Orca-Flashforge (Flash Studio Desktop)",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "flashforge-guider4-pro.png",
+   "perfis": [
+    {
+     "id": "flashforge-guider4-pro-0.25",
+     "bico": 0.25,
+     "variante": "0.25",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-pro-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-pro-0.4hf",
+     "bico": 0.4,
+     "variante": "0.4 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-pro-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-pro-0.6hf",
+     "bico": 0.6,
+     "variante": "0.6 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "flashforge-guider4-pro-0.8hf",
+     "bico": 0.8,
+     "variante": "0.8 HF",
+     "casamentoAutomatico": false,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a250.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-bkit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 BKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a250-bkit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-bkit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-bkit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-bkit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-bkit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-dual",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 Dual",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a250-dual.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-dual-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-dual-bkit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 Dual BKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a250-dual-bkit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-dual-bkit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-bkit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-bkit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-bkit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-dual-qs-b-kit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 Dual QS+B Kit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a250-dual-qs-b-kit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-dual-qs-b-kit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qs-b-kit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qs-b-kit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qs-b-kit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-dual-qskit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 Dual QSKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a250-dual-qskit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-dual-qskit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qskit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qskit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-dual-qskit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-qs-b-kit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 QS+B Kit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a250-qs-b-kit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-qs-b-kit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qs-b-kit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qs-b-kit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qs-b-kit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a250-qskit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A250 QSKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a250-qskit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a250-qskit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qskit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qskit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a250-qskit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a350.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-bkit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 BKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a350-bkit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-bkit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-bkit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-bkit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-bkit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-dual",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 Dual",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a350-dual.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-dual-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-dual-bkit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 Dual BKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a350-dual-bkit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-dual-bkit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-bkit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-bkit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-bkit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-dual-qs-b-kit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 Dual QS+B Kit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a350-dual-qs-b-kit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-dual-qs-b-kit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qs-b-kit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qs-b-kit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qs-b-kit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-dual-qskit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 Dual QSKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-a350-dual-qskit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-dual-qskit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qskit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qskit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-dual-qskit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-qs-b-kit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 QS+B Kit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a350-qs-b-kit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-qs-b-kit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qs-b-kit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qs-b-kit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qs-b-kit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-a350-qskit",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker A350 QSKit",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 1,
+   "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+   "capa": "snapmaker-a350-qskit.png",
+   "perfis": [
+    {
+     "id": "snapmaker-a350-qskit-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qskit-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qskit-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-a350-qskit-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-artisan",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker Artisan",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-artisan.png",
+   "perfis": [
+    {
+     "id": "snapmaker-artisan-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-artisan-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-artisan-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-artisan-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-j1",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker J1",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 2,
+   "fonteMaxFilamentos": "2 extrusoras no perfil",
+   "capa": "snapmaker-j1.png",
+   "perfis": [
+    {
+     "id": "snapmaker-j1-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-j1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-j1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-j1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  },
+  {
+   "id": "snapmaker-u1",
+   "fabricante": "Snapmaker",
+   "impressora": "Snapmaker U1",
+   "slicer": "Snapmaker Orca",
+   "maxFilamentos": 4,
+   "fonteMaxFilamentos": "4 extrusoras no perfil",
+   "capa": "snapmaker-u1.png",
+   "perfis": [
+    {
+     "id": "snapmaker-u1-0.2",
+     "bico": 0.2,
+     "variante": "0.2",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-u1-0.4",
+     "bico": 0.4,
+     "variante": "0.4",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-u1-0.6",
+     "bico": 0.6,
+     "variante": "0.6",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    },
+    {
+     "id": "snapmaker-u1-0.8",
+     "bico": 0.8,
+     "variante": "0.8",
+     "casamentoAutomatico": true,
+     "regrasFilamento": "automáticas"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "conversor3mf-conversao",
+  "private": true,
+  "description": "Biblioteca de conversão de projetos .3mf entre slicers (roda no Node e no navegador)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copiar-perfis.mjs",
+    "test": "vitest run",
+    "lint": "eslint . && tsc --noEmit -p tsconfig.json",
+    "gerar-perfis": "node scripts/gerar-perfis.mjs",
+    "gerar-capas-origem": "node scripts/gerar-capas-origem.mjs"
+  },
+  "dependencies": {
+    "saxes": "^6.0.0",
+    "yauzl": "^3.4.0",
+    "yazl": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.20.5",
+    "@types/yauzl": "^3.4.0",
+    "@types/yazl": "^3.3.1",
+    "eslint": "^10.14.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.2",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,5886 @@
+{
+ "formato": 1,
+ "id": "creality-ender-3-v3-plus-0.4",
+ "modeloId": "creality-ender-3-v3-plus",
+ "fabricante": "Creality",
+ "impressora": "Creality Ender-3 V3 Plus",
+ "bico": 0.4,
+ "variante": "0.4",
+ "casamentoAutomatico": true,
+ "slicer": {
+  "nome": "Creality Print",
+  "versaoApp": "7.3.1.6378",
+  "versaoProjeto": "7.3.1.6378",
+  "aplicacao": "Creality_Print V7.3.1.6378 Release",
+  "reescreverAplicacao": "sempre",
+  "pacotePerfis": "Creality.json",
+  "versaoPacotePerfis": "26.10.29.20",
+  "opcoes": "creality"
+ },
+ "geradoEm": "2026-11-14",
+ "mesa": {
+  "origemX": 0,
+  "origemY": 0,
+  "x": 300,
+  "y": 300,
+  "z": 330
+ },
+ "maxFilamentos": 1,
+ "fonteMaxFilamentos": "uma extrusora, sem sistema multicor conhecido — a confirmar",
+ "extrusoras": 1,
+ "multiMaterial": "unicaCor",
+ "tipoMesa": "Textured PEI Plate",
+ "regrasFilamento": "automáticas",
+ "maquina": {
+  "nome": "Creality Ender-3 V3 Plus 0.4 nozzle",
+  "config": {
+   "auxiliary_fan": "1",
+   "bed_exclude_area": [
+    "0x0"
+   ],
+   "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+   "best_object_pos": "0.5,0.5",
+   "change_filament_gcode": "",
+   "cooling_tube_length": "0",
+   "cooling_tube_retraction": "0",
+   "default_filament_profile": [
+    "Hyper PLA @Creality Ender-3 V3 Plus 0.4 nozzle"
+   ],
+   "default_print_profile": "0.20mm Standard @Creality Ender-3 V3 Plus 0.4 nozzle",
+   "deretraction_speed": [
+    "40"
+   ],
+   "disable_m73": "0",
+   "emit_machine_limits_to_gcode": "1",
+   "enable_filament_ramming": "0",
+   "extra_loading_move": "0",
+   "extruder_clearance_height_to_lid": "330",
+   "extruder_clearance_height_to_rod": "36",
+   "extruder_clearance_radius": "65",
+   "extruder_colour": [
+    "#018001"
+   ],
+   "extruder_offset": [
+    "0x0"
+   ],
+   "fan_kickstart": "0",
+   "fan_speedup_overhangs": "1",
+   "fan_speedup_time": "0",
+   "gcode_flavor": "klipper",
+   "high_current_on_filament_swap": "0",
+   "host_type": "octoprint",
+   "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+   "machine_LED_light_exist": "0",
+   "machine_end_gcode": "END_PRINT",
+   "machine_load_filament_time": "0",
+   "machine_max_acceleration_e": [
+    "5000"
+   ],
+   "machine_max_acceleration_extruding": [
+    "20000"
+   ],
+   "machine_max_acceleration_retracting": [
+    "5000"
+   ],
+   "machine_max_acceleration_travel": [
+    "20000"
+   ],
+   "machine_max_acceleration_x": [
+    "20000"
+   ],
+   "machine_max_acceleration_y": [
+    "20000"
+   ],
+   "machine_max_acceleration_z": [
+    "500"
+   ],
+   "machine_max_jerk_e": [
+    "5"
+   ],
+   "machine_max_jerk_x": [
+    "12"
+   ],
+   "machine_max_jerk_y": [
+    "12"
+   ],
+   "machine_max_jerk_z": [
+    "2"
+   ],
+   "machine_max_speed_e": [
+    "100"
+   ],
+   "machine_max_speed_x": [
+    "600"
+   ],
+   "machine_max_speed_y": [
+    "600"
+   ],
+   "machine_max_speed_z": [
+    "500"
+   ],
+   "machine_min_extruding_rate": [
+    "0",
+    "0"
+   ],
+   "machine_min_travel_rate": [
+    "0",
+    "0"
+   ],
+   "machine_pause_gcode": "PAUSE\n",
+   "machine_platform_motion_enable": "0",
+   "machine_start_gcode": "M140 S0\nM104 S0\nSTART_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer]",
+   "machine_unload_filament_time": "0",
+   "manual_filament_change": "0",
+   "max_layer_height": [
+    "0.32"
+   ],
+   "min_layer_height": [
+    "0.08"
+   ],
+   "nozzle_diameter": [
+    "0.4"
+   ],
+   "nozzle_hrc": "0",
+   "nozzle_type": [
+    "brass"
+   ],
+   "nozzle_volume": [
+    "0"
+   ],
+   "parking_pos_retraction": "0",
+   "preferred_orientation": "0",
+   "print_host": "",
+   "print_host_webui": "",
+   "printable_area": [
+    "0x0",
+    "300x0",
+    "300x300",
+    "0x300"
+   ],
+   "printable_height": "330",
+   "printer_model": "Creality Ender-3 V3 Plus",
+   "printer_structure": "undefine",
+   "printer_technology": "FFF",
+   "printer_variant": "0.4",
+   "printhost_authorization_type": "key",
+   "printhost_ssl_ignore_revoke": "0",
+   "purge_in_prime_tower": "0",
+   "retract_before_wipe": [
+    "0"
+   ],
+   "retract_length_toolchange": [
+    "1"
+   ],
+   "retract_lift_above": [
+    "0"
+   ],
+   "retract_lift_below": [
+    "0"
+   ],
+   "retract_lift_enforce": [
+    "All Surfaces"
+   ],
+   "retract_restart_extra": [
+    "0"
+   ],
+   "retract_restart_extra_toolchange": [
+    "0"
+   ],
+   "retract_when_changing_layer": [
+    "1"
+   ],
+   "retraction_length": [
+    "0.6"
+   ],
+   "retraction_minimum_travel": [
+    "1"
+   ],
+   "retraction_speed": [
+    "40"
+   ],
+   "scan_first_layer": "0",
+   "silent_mode": "0",
+   "single_extruder_multi_material": "1",
+   "support_air_filtration": "0",
+   "support_chamber_temp_control": "1",
+   "support_multi_bed_types": "1",
+   "thumbnails": "96x96,300x300",
+   "thumbnails_format": "CR_PNG",
+   "time_cost": "0",
+   "use_firmware_retraction": "0",
+   "use_relative_e_distances": "1",
+   "wipe": [
+    "1"
+   ],
+   "wipe_distance": [
+    "2"
+   ],
+   "z_hop": [
+    "0.4"
+   ],
+   "z_hop_types": [
+    "Slope Lift"
+   ],
+   "z_offset": "0"
+  }
+ },
+ "processos": [
+  {
+   "nome": "0.1mm Fine @Creality Ender-3 V3 Plus 0.4 nozzle",
+   "alturaCamada": 0.1,
+   "config": {
+    "accel_to_decel_enable": "1",
+    "accel_to_decel_factor": "25%",
+    "acceleration_limit_mess": "[[0.5,1.0,100,6000],[1.0,1.5,80,5500],[1.5,2.0,60,5000]]",
+    "acceleration_limit_mess_enable": "0",
+    "adaptive_layer_height": "0",
+    "alternate_extra_wall": "0",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "bottom_solid_infill_flow_ratio": "1",
+    "bottom_surface_pattern": "monotonic",
+    "bridge_acceleration": "50%",
+    "bridge_angle": "0",
+    "bridge_density": "100%",
+    "bridge_flow": "0.95",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+     "25"
+    ],
+    "brim_ears_detection_length": "1",
+    "brim_ears_max_angle": "125",
+    "brim_object_gap": "0.3",
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "default_acceleration": [
+     "12000"
+    ],
+    "default_jerk": "12",
+    "detect_narrow_internal_solid_infill": "1",
+    "detect_overhang_wall": "1",
+    "detect_thin_wall": "0",
+    "draft_shield": "disabled",
+    "elefant_foot_compensation": "0.075",
+    "elefant_foot_compensation_layers": "1",
+    "enable_arc_fitting": "1",
+    "enable_overhang_speed": [
+     "1"
+    ],
+    "enable_prime_tower": "0",
+    "enable_support": "0",
+    "enforce_support_layers": "0",
+    "ensure_vertical_shell_thickness": "ensure_all",
+    "exclude_object": "1",
+    "extra_perimeters_on_overhangs": "0",
+    "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+    "filter_out_gap_fill": "0",
+    "flush_into_infill": "0",
+    "flush_into_objects": "0",
+    "flush_into_support": "1",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_first_layer": "0",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "0.3",
+    "gap_infill_speed": [
+     "250"
+    ],
+    "gcode_add_line_number": "0",
+    "gcode_comments": "0",
+    "gcode_label_objects": "1",
+    "hole_to_polyhole": "0",
+    "hole_to_polyhole_threshold": "0.01",
+    "hole_to_polyhole_twisted": "1",
+    "independent_support_layer_height": "1",
+    "infill_anchor": "400%",
+    "infill_anchor_max": "20",
+    "infill_combination": "0",
+    "infill_direction": "45",
+    "infill_jerk": "12",
+    "infill_wall_overlap": "25",
+    "initial_layer_acceleration": [
+     "2000"
+    ],
+    "initial_layer_infill_speed": [
+     "105"
+    ],
+    "initial_layer_jerk": "8",
+    "initial_layer_line_width": [
+     "0.55"
+    ],
+    "initial_layer_min_bead_width": "85%",
+    "initial_layer_print_height": "0.2",
+    "initial_layer_speed": [
+     "60"
+    ],
+    "initial_layer_travel_speed": "100%",
+    "inner_wall_acceleration": [
+     "5000"
+    ],
+    "inner_wall_jerk": "8",
+    "inner_wall_line_width": [
+     "0.45"
+    ],
+    "inner_wall_speed": [
+     "300"
+    ],
+    "interface_shells": "0",
+    "internal_bridge_flow": "1",
+    "internal_bridge_speed": [
+     "50"
+    ],
+    "internal_solid_infill_acceleration": "100%",
+    "internal_solid_infill_line_width": [
+     "0.42"
+    ],
+    "internal_solid_infill_pattern": "monotonic",
+    "internal_solid_infill_speed": [
+     "250"
+    ],
+    "ironing_angle": "-1",
+    "ironing_flow": "10%",
+    "ironing_pattern": "zig-zag",
+    "ironing_spacing": "0.15",
+    "ironing_speed": "30",
+    "ironing_support_layer": "0",
+    "ironing_type": "no ironing",
+    "is_infill_first": "0",
+    "layer_height": "0.1",
+    "line_width": [
+     "0.42"
+    ],
+    "make_overhang_printable": "0",
+    "make_overhang_printable_angle": "55",
+    "make_overhang_printable_hole_size": "0",
+    "max_bridge_length": "10",
+    "max_travel_detour_distance": "0",
+    "max_volumetric_extrusion_rate_slope": "0",
+    "max_volumetric_extrusion_rate_slope_segment_length": "3",
+    "min_bead_width": "85%",
+    "min_feature_size": "25%",
+    "min_width_top_surface": "300%",
+    "minimum_sparse_infill_area": "15",
+    "minimum_support_area": "5",
+    "mmu_segmented_region_interlocking_depth": "0",
+    "mmu_segmented_region_max_width": "0",
+    "only_one_wall_first_layer": "0",
+    "only_one_wall_top": "0",
+    "ooze_prevention": "0",
+    "outer_wall_acceleration": [
+     "5000"
+    ],
+    "outer_wall_jerk": "8",
+    "outer_wall_line_width": [
+     "0.42"
+    ],
+    "outer_wall_speed": [
+     "200"
+    ],
+    "overhang_1_4_speed": [
+     "50"
+    ],
+    "overhang_2_4_speed": [
+     "30"
+    ],
+    "overhang_3_4_speed": [
+     "10"
+    ],
+    "overhang_4_4_speed": [
+     "10"
+    ],
+    "overhang_reverse": "0",
+    "overhang_reverse_internal_only": "0",
+    "overhang_reverse_threshold": "50%",
+    "overhang_speed_classic": "0",
+    "overhang_totally_speed": [
+     "25"
+    ],
+    "precise_outer_wall": "1",
+    "prime_tower_brim_width": "3",
+    "prime_tower_width": "60",
+    "prime_volume": "45",
+    "print_flow_ratio": "1",
+    "print_sequence": "by layer",
+    "raft_contact_distance": "0.1",
+    "raft_expansion": "1.5",
+    "raft_first_layer_density": "90%",
+    "raft_first_layer_expansion": "2",
+    "raft_layers": "0",
+    "reduce_crossing_wall": "0",
+    "reduce_infill_retraction": "1",
+    "resolution": "0.012",
+    "role_based_wipe_speed": "1",
+    "seam_gap": "10%",
+    "seam_position": "aligned",
+    "single_extruder_multi_material_priming": "0",
+    "skirt_distance": "2",
+    "skirt_height": "1",
+    "skirt_loops": "0",
+    "skirt_speed": "50",
+    "slice_closing_radius": "0.049",
+    "slicing_mode": "regular",
+    "slow_down_layers": "4",
+    "slowdown_for_curled_perimeters": "0",
+    "small_perimeter_speed": [
+     "50%"
+    ],
+    "small_perimeter_threshold": [
+     "0"
+    ],
+    "sparse_infill_acceleration": [
+     "100%"
+    ],
+    "sparse_infill_density": "10",
+    "sparse_infill_line_width": [
+     "0.45"
+    ],
+    "sparse_infill_pattern": "zig-zag",
+    "sparse_infill_speed": [
+     "250"
+    ],
+    "speed_limit_to_height": "[[150,200,200,2000],[200,250,200,1500],[250,330,200,1000]]",
+    "speed_limit_to_height_enable": "1",
+    "spiral_mode": "0",
+    "spiral_mode_max_xy_smoothing": "200%",
+    "spiral_mode_smooth": "0",
+    "staggered_inner_seams": "0",
+    "standby_temperature_delta": "-5",
+    "support_angle": "0",
+    "support_base_pattern": "rectilinear",
+    "support_base_pattern_spacing": "2.5",
+    "support_bottom_interface_spacing": "0.5",
+    "support_bottom_z_distance": "0.2",
+    "support_critical_regions_only": "0",
+    "support_expansion": "0",
+    "support_filament": "0",
+    "support_interface_bottom_layers": "2",
+    "support_interface_filament": "0",
+    "support_interface_loop_pattern": "0",
+    "support_interface_not_for_body": "1",
+    "support_interface_pattern": "auto",
+    "support_interface_spacing": "0.5",
+    "support_interface_speed": [
+     "80"
+    ],
+    "support_interface_top_layers": "2",
+    "support_line_width": [
+     "0.42"
+    ],
+    "support_object_xy_distance": "0.35",
+    "support_on_build_plate_only": "0",
+    "support_remove_small_overhang": "1",
+    "support_speed": [
+     "150"
+    ],
+    "support_style": "default",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "normal(auto)",
+    "support_xy_overrides_z": "xy_overrides_z",
+    "thick_bridges": "0",
+    "thick_internal_bridges": "1",
+    "timelapse_type": "0",
+    "top_shell_layers": "4",
+    "top_shell_thickness": "0.8",
+    "top_solid_infill_flow_ratio": [
+     "1"
+    ],
+    "top_surface_acceleration": [
+     "2000"
+    ],
+    "top_surface_jerk": "8",
+    "top_surface_line_width": [
+     "0.42"
+    ],
+    "top_surface_pattern": "monotonicline",
+    "top_surface_speed": [
+     "200"
+    ],
+    "travel_acceleration": [
+     "10000"
+    ],
+    "travel_jerk": "12",
+    "travel_speed": [
+     "500"
+    ],
+    "travel_speed_z": [
+     "0"
+    ],
+    "tree_support_adaptive_layer_height": "1",
+    "tree_support_angle_slow": "25",
+    "tree_support_auto_brim": "1",
+    "tree_support_branch_angle": "45",
+    "tree_support_branch_angle_organic": "40",
+    "tree_support_branch_diameter": "2",
+    "tree_support_branch_diameter_angle": "5",
+    "tree_support_branch_diameter_double_wall": "3",
+    "tree_support_branch_diameter_organic": "2",
+    "tree_support_branch_distance": "5",
+    "tree_support_branch_distance_organic": "1",
+    "tree_support_brim_width": "3",
+    "tree_support_tip_diameter": "0.8",
+    "tree_support_top_rate": "30%",
+    "tree_support_wall_count": "0",
+    "wall_distribution_count": "1",
+    "wall_generator": "arachne",
+    "wall_infill_order": "inner wall/outer wall/infill",
+    "wall_loops": "2",
+    "wall_sequence": "inner wall/outer wall",
+    "wall_transition_angle": "10",
+    "wall_transition_filter_deviation": "25%",
+    "wall_transition_length": "100%",
+    "wipe_before_external_loop": "0",
+    "wipe_on_loops": "0",
+    "wipe_speed": "80%",
+    "wipe_tower_bridging": "10",
+    "wipe_tower_cone_angle": "0",
+    "wipe_tower_extra_spacing": "100%",
+    "wipe_tower_no_sparse_layers": "0",
+    "wipe_tower_rotation_angle": "0",
+    "wiping_volumes_extruders": [
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70"
+    ],
+    "xy_contour_compensation": "0",
+    "xy_hole_compensation": "0"
+   },
+   "padraoDaAltura": true
+  },
+  {
+   "nome": "0.20mm Standard @Creality Ender-3 V3 Plus 0.4 nozzle",
+   "alturaCamada": 0.2,
+   "config": {
+    "accel_to_decel_enable": "1",
+    "accel_to_decel_factor": "25%",
+    "acceleration_limit_mess": "[[0.5,1.0,100,6000],[1.0,1.5,80,5500],[1.5,2.0,60,5000]]",
+    "acceleration_limit_mess_enable": "0",
+    "adaptive_layer_height": "0",
+    "alternate_extra_wall": "0",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "bottom_solid_infill_flow_ratio": "1",
+    "bottom_surface_pattern": "monotonic",
+    "bridge_acceleration": "50%",
+    "bridge_angle": "0",
+    "bridge_density": "100%",
+    "bridge_flow": "0.95",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+     "25"
+    ],
+    "brim_ears_detection_length": "1",
+    "brim_ears_max_angle": "125",
+    "brim_object_gap": "0.3",
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "default_acceleration": [
+     "12000"
+    ],
+    "default_jerk": "12",
+    "detect_narrow_internal_solid_infill": "1",
+    "detect_overhang_wall": "1",
+    "detect_thin_wall": "0",
+    "draft_shield": "disabled",
+    "elefant_foot_compensation": "0.075",
+    "elefant_foot_compensation_layers": "1",
+    "enable_arc_fitting": "1",
+    "enable_overhang_speed": [
+     "1"
+    ],
+    "enable_prime_tower": "0",
+    "enable_support": "0",
+    "enforce_support_layers": "0",
+    "ensure_vertical_shell_thickness": "ensure_all",
+    "exclude_object": "1",
+    "extra_perimeters_on_overhangs": "0",
+    "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+    "filter_out_gap_fill": "0",
+    "flush_into_infill": "0",
+    "flush_into_objects": "0",
+    "flush_into_support": "1",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_first_layer": "0",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "0.3",
+    "gap_infill_speed": [
+     "250"
+    ],
+    "gcode_add_line_number": "0",
+    "gcode_comments": "0",
+    "gcode_label_objects": "1",
+    "hole_to_polyhole": "0",
+    "hole_to_polyhole_threshold": "0.01",
+    "hole_to_polyhole_twisted": "1",
+    "independent_support_layer_height": "1",
+    "infill_anchor": "400%",
+    "infill_anchor_max": "20",
+    "infill_combination": "0",
+    "infill_direction": "45",
+    "infill_jerk": "12",
+    "infill_wall_overlap": "25",
+    "initial_layer_acceleration": [
+     "2000"
+    ],
+    "initial_layer_infill_speed": [
+     "105"
+    ],
+    "initial_layer_jerk": "8",
+    "initial_layer_line_width": [
+     "0.55"
+    ],
+    "initial_layer_min_bead_width": "85%",
+    "initial_layer_print_height": "0.2",
+    "initial_layer_speed": [
+     "60"
+    ],
+    "initial_layer_travel_speed": "100%",
+    "inner_wall_acceleration": [
+     "5000"
+    ],
+    "inner_wall_jerk": "8",
+    "inner_wall_line_width": [
+     "0.45"
+    ],
+    "inner_wall_speed": [
+     "300"
+    ],
+    "interface_shells": "0",
+    "internal_bridge_flow": "1",
+    "internal_bridge_speed": [
+     "50"
+    ],
+    "internal_solid_infill_acceleration": "100%",
+    "internal_solid_infill_line_width": [
+     "0.42"
+    ],
+    "internal_solid_infill_pattern": "monotonic",
+    "internal_solid_infill_speed": [
+     "250"
+    ],
+    "ironing_angle": "-1",
+    "ironing_flow": "10%",
+    "ironing_pattern": "zig-zag",
+    "ironing_spacing": "0.15",
+    "ironing_speed": "30",
+    "ironing_support_layer": "0",
+    "ironing_type": "no ironing",
+    "is_infill_first": "0",
+    "layer_height": "0.2",
+    "line_width": [
+     "0.42"
+    ],
+    "make_overhang_printable": "0",
+    "make_overhang_printable_angle": "55",
+    "make_overhang_printable_hole_size": "0",
+    "max_bridge_length": "10",
+    "max_travel_detour_distance": "0",
+    "max_volumetric_extrusion_rate_slope": "0",
+    "max_volumetric_extrusion_rate_slope_segment_length": "3",
+    "min_bead_width": "85%",
+    "min_feature_size": "25%",
+    "min_width_top_surface": "300%",
+    "minimum_sparse_infill_area": "15",
+    "minimum_support_area": "5",
+    "mmu_segmented_region_interlocking_depth": "0",
+    "mmu_segmented_region_max_width": "0",
+    "only_one_wall_first_layer": "0",
+    "only_one_wall_top": "0",
+    "ooze_prevention": "0",
+    "outer_wall_acceleration": [
+     "5000"
+    ],
+    "outer_wall_jerk": "8",
+    "outer_wall_line_width": [
+     "0.42"
+    ],
+    "outer_wall_speed": [
+     "200"
+    ],
+    "overhang_1_4_speed": [
+     "0"
+    ],
+    "overhang_2_4_speed": [
+     "50"
+    ],
+    "overhang_3_4_speed": [
+     "30"
+    ],
+    "overhang_4_4_speed": [
+     "10"
+    ],
+    "overhang_reverse": "0",
+    "overhang_reverse_internal_only": "0",
+    "overhang_reverse_threshold": "50%",
+    "overhang_speed_classic": "0",
+    "overhang_totally_speed": [
+     "25"
+    ],
+    "precise_outer_wall": "1",
+    "prime_tower_brim_width": "3",
+    "prime_tower_width": "60",
+    "prime_volume": "45",
+    "print_flow_ratio": "1",
+    "print_sequence": "by layer",
+    "raft_contact_distance": "0.1",
+    "raft_expansion": "1.5",
+    "raft_first_layer_density": "90%",
+    "raft_first_layer_expansion": "2",
+    "raft_layers": "0",
+    "reduce_crossing_wall": "0",
+    "reduce_infill_retraction": "1",
+    "resolution": "0.012",
+    "role_based_wipe_speed": "1",
+    "seam_gap": "10%",
+    "seam_position": "aligned",
+    "single_extruder_multi_material_priming": "0",
+    "skirt_distance": "2",
+    "skirt_height": "1",
+    "skirt_loops": "0",
+    "skirt_speed": "50",
+    "slice_closing_radius": "0.049",
+    "slicing_mode": "regular",
+    "slow_down_layers": "4",
+    "slowdown_for_curled_perimeters": "0",
+    "small_perimeter_speed": [
+     "50%"
+    ],
+    "small_perimeter_threshold": [
+     "0"
+    ],
+    "sparse_infill_acceleration": [
+     "100%"
+    ],
+    "sparse_infill_density": "10",
+    "sparse_infill_line_width": [
+     "0.45"
+    ],
+    "sparse_infill_pattern": "zig-zag",
+    "sparse_infill_speed": [
+     "250"
+    ],
+    "speed_limit_to_height": "[[150,200,200,2000],[200,250,200,1500],[250,330,200,1000]]",
+    "speed_limit_to_height_enable": "1",
+    "spiral_mode": "0",
+    "spiral_mode_max_xy_smoothing": "200%",
+    "spiral_mode_smooth": "0",
+    "staggered_inner_seams": "0",
+    "standby_temperature_delta": "-5",
+    "support_angle": "0",
+    "support_base_pattern": "rectilinear",
+    "support_base_pattern_spacing": "2.5",
+    "support_bottom_interface_spacing": "0.5",
+    "support_bottom_z_distance": "0.2",
+    "support_critical_regions_only": "0",
+    "support_expansion": "0",
+    "support_filament": "0",
+    "support_interface_bottom_layers": "2",
+    "support_interface_filament": "0",
+    "support_interface_loop_pattern": "0",
+    "support_interface_not_for_body": "1",
+    "support_interface_pattern": "auto",
+    "support_interface_spacing": "0.5",
+    "support_interface_speed": [
+     "80"
+    ],
+    "support_interface_top_layers": "2",
+    "support_line_width": [
+     "0.42"
+    ],
+    "support_object_xy_distance": "0.35",
+    "support_on_build_plate_only": "0",
+    "support_remove_small_overhang": "1",
+    "support_speed": [
+     "150"
+    ],
+    "support_style": "default",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "normal(auto)",
+    "support_xy_overrides_z": "xy_overrides_z",
+    "thick_bridges": "0",
+    "thick_internal_bridges": "1",
+    "timelapse_type": "0",
+    "top_shell_layers": "4",
+    "top_shell_thickness": "0.8",
+    "top_solid_infill_flow_ratio": [
+     "1"
+    ],
+    "top_surface_acceleration": [
+     "2000"
+    ],
+    "top_surface_jerk": "8",
+    "top_surface_line_width": [
+     "0.42"
+    ],
+    "top_surface_pattern": "monotonicline",
+    "top_surface_speed": [
+     "200"
+    ],
+    "travel_acceleration": [
+     "10000"
+    ],
+    "travel_jerk": "12",
+    "travel_speed": [
+     "500"
+    ],
+    "travel_speed_z": [
+     "0"
+    ],
+    "tree_support_adaptive_layer_height": "1",
+    "tree_support_angle_slow": "25",
+    "tree_support_auto_brim": "1",
+    "tree_support_branch_angle": "45",
+    "tree_support_branch_angle_organic": "40",
+    "tree_support_branch_diameter": "2",
+    "tree_support_branch_diameter_angle": "5",
+    "tree_support_branch_diameter_double_wall": "3",
+    "tree_support_branch_diameter_organic": "2",
+    "tree_support_branch_distance": "5",
+    "tree_support_branch_distance_organic": "1",
+    "tree_support_brim_width": "3",
+    "tree_support_tip_diameter": "0.8",
+    "tree_support_top_rate": "30%",
+    "tree_support_wall_count": "0",
+    "wall_distribution_count": "1",
+    "wall_generator": "arachne",
+    "wall_infill_order": "inner wall/outer wall/infill",
+    "wall_loops": "2",
+    "wall_sequence": "inner wall/outer wall",
+    "wall_transition_angle": "10",
+    "wall_transition_filter_deviation": "25%",
+    "wall_transition_length": "100%",
+    "wipe_before_external_loop": "0",
+    "wipe_on_loops": "0",
+    "wipe_speed": "80%",
+    "wipe_tower_bridging": "10",
+    "wipe_tower_cone_angle": "0",
+    "wipe_tower_extra_spacing": "100%",
+    "wipe_tower_no_sparse_layers": "0",
+    "wipe_tower_rotation_angle": "0",
+    "wiping_volumes_extruders": [
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70"
+    ],
+    "xy_contour_compensation": "0",
+    "xy_hole_compensation": "0"
+   },
+   "padraoDaAltura": true
+  },
+  {
+   "nome": "0.25mm Standard @Creality Ender-3 V3 Plus 0.4 nozzle",
+   "alturaCamada": 0.25,
+   "config": {
+    "accel_to_decel_enable": "1",
+    "accel_to_decel_factor": "25%",
+    "acceleration_limit_mess": "[[0.5,1.0,100,6000],[1.0,1.5,80,5500],[1.5,2.0,60,5000]]",
+    "acceleration_limit_mess_enable": "0",
+    "adaptive_layer_height": "0",
+    "alternate_extra_wall": "0",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "bottom_solid_infill_flow_ratio": "1",
+    "bottom_surface_pattern": "monotonic",
+    "bridge_acceleration": "50%",
+    "bridge_angle": "0",
+    "bridge_density": "100%",
+    "bridge_flow": "0.95",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+     "25"
+    ],
+    "brim_ears_detection_length": "1",
+    "brim_ears_max_angle": "125",
+    "brim_object_gap": "0.3",
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "default_acceleration": [
+     "12000"
+    ],
+    "default_jerk": "12",
+    "detect_narrow_internal_solid_infill": "1",
+    "detect_overhang_wall": "1",
+    "detect_thin_wall": "0",
+    "draft_shield": "disabled",
+    "elefant_foot_compensation": "0.075",
+    "elefant_foot_compensation_layers": "1",
+    "enable_arc_fitting": "1",
+    "enable_overhang_speed": [
+     "1"
+    ],
+    "enable_prime_tower": "0",
+    "enable_support": "0",
+    "enforce_support_layers": "0",
+    "ensure_vertical_shell_thickness": "ensure_all",
+    "exclude_object": "1",
+    "extra_perimeters_on_overhangs": "0",
+    "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+    "filter_out_gap_fill": "0",
+    "flush_into_infill": "0",
+    "flush_into_objects": "0",
+    "flush_into_support": "1",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_first_layer": "0",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "0.3",
+    "gap_infill_speed": [
+     "250"
+    ],
+    "gcode_add_line_number": "0",
+    "gcode_comments": "0",
+    "gcode_label_objects": "1",
+    "hole_to_polyhole": "0",
+    "hole_to_polyhole_threshold": "0.01",
+    "hole_to_polyhole_twisted": "1",
+    "independent_support_layer_height": "1",
+    "infill_anchor": "400%",
+    "infill_anchor_max": "20",
+    "infill_combination": "0",
+    "infill_direction": "45",
+    "infill_jerk": "12",
+    "infill_wall_overlap": "25",
+    "initial_layer_acceleration": [
+     "2000"
+    ],
+    "initial_layer_infill_speed": [
+     "105"
+    ],
+    "initial_layer_jerk": "8",
+    "initial_layer_line_width": [
+     "0.55"
+    ],
+    "initial_layer_min_bead_width": "85%",
+    "initial_layer_print_height": "0.2",
+    "initial_layer_speed": [
+     "60"
+    ],
+    "initial_layer_travel_speed": "100%",
+    "inner_wall_acceleration": [
+     "5000"
+    ],
+    "inner_wall_jerk": "8",
+    "inner_wall_line_width": [
+     "0.45"
+    ],
+    "inner_wall_speed": [
+     "300"
+    ],
+    "interface_shells": "0",
+    "internal_bridge_flow": "1",
+    "internal_bridge_speed": [
+     "50"
+    ],
+    "internal_solid_infill_acceleration": "100%",
+    "internal_solid_infill_line_width": [
+     "0.42"
+    ],
+    "internal_solid_infill_pattern": "monotonic",
+    "internal_solid_infill_speed": [
+     "250"
+    ],
+    "ironing_angle": "-1",
+    "ironing_flow": "10%",
+    "ironing_pattern": "zig-zag",
+    "ironing_spacing": "0.15",
+    "ironing_speed": "30",
+    "ironing_support_layer": "0",
+    "ironing_type": "no ironing",
+    "is_infill_first": "0",
+    "layer_height": "0.25",
+    "line_width": [
+     "0.42"
+    ],
+    "make_overhang_printable": "0",
+    "make_overhang_printable_angle": "55",
+    "make_overhang_printable_hole_size": "0",
+    "max_bridge_length": "10",
+    "max_travel_detour_distance": "0",
+    "max_volumetric_extrusion_rate_slope": "0",
+    "max_volumetric_extrusion_rate_slope_segment_length": "3",
+    "min_bead_width": "85%",
+    "min_feature_size": "25%",
+    "min_width_top_surface": "300%",
+    "minimum_sparse_infill_area": "15",
+    "minimum_support_area": "5",
+    "mmu_segmented_region_interlocking_depth": "0",
+    "mmu_segmented_region_max_width": "0",
+    "only_one_wall_first_layer": "0",
+    "only_one_wall_top": "0",
+    "ooze_prevention": "0",
+    "outer_wall_acceleration": [
+     "5000"
+    ],
+    "outer_wall_jerk": "8",
+    "outer_wall_line_width": [
+     "0.42"
+    ],
+    "outer_wall_speed": [
+     "200"
+    ],
+    "overhang_1_4_speed": [
+     "0"
+    ],
+    "overhang_2_4_speed": [
+     "50"
+    ],
+    "overhang_3_4_speed": [
+     "30"
+    ],
+    "overhang_4_4_speed": [
+     "10"
+    ],
+    "overhang_reverse": "0",
+    "overhang_reverse_internal_only": "0",
+    "overhang_reverse_threshold": "50%",
+    "overhang_speed_classic": "0",
+    "overhang_totally_speed": [
+     "25"
+    ],
+    "precise_outer_wall": "1",
+    "prime_tower_brim_width": "3",
+    "prime_tower_width": "60",
+    "prime_volume": "45",
+    "print_flow_ratio": "1",
+    "print_sequence": "by layer",
+    "raft_contact_distance": "0.1",
+    "raft_expansion": "1.5",
+    "raft_first_layer_density": "90%",
+    "raft_first_layer_expansion": "2",
+    "raft_layers": "0",
+    "reduce_crossing_wall": "0",
+    "reduce_infill_retraction": "1",
+    "resolution": "0.012",
+    "role_based_wipe_speed": "1",
+    "seam_gap": "10%",
+    "seam_position": "aligned",
+    "single_extruder_multi_material_priming": "0",
+    "skirt_distance": "2",
+    "skirt_height": "1",
+    "skirt_loops": "0",
+    "skirt_speed": "50",
+    "slice_closing_radius": "0.049",
+    "slicing_mode": "regular",
+    "slow_down_layers": "4",
+    "slowdown_for_curled_perimeters": "0",
+    "small_perimeter_speed": [
+     "50%"
+    ],
+    "small_perimeter_threshold": [
+     "0"
+    ],
+    "sparse_infill_acceleration": [
+     "100%"
+    ],
+    "sparse_infill_density": "10",
+    "sparse_infill_line_width": [
+     "0.45"
+    ],
+    "sparse_infill_pattern": "zig-zag",
+    "sparse_infill_speed": [
+     "250"
+    ],
+    "speed_limit_to_height": "[[150,200,200,2000],[200,250,200,1500],[250,330,200,1000]]",
+    "speed_limit_to_height_enable": "1",
+    "spiral_mode": "0",
+    "spiral_mode_max_xy_smoothing": "200%",
+    "spiral_mode_smooth": "0",
+    "staggered_inner_seams": "0",
+    "standby_temperature_delta": "-5",
+    "support_angle": "0",
+    "support_base_pattern": "rectilinear",
+    "support_base_pattern_spacing": "2.5",
+    "support_bottom_interface_spacing": "0.5",
+    "support_bottom_z_distance": "0.2",
+    "support_critical_regions_only": "0",
+    "support_expansion": "0",
+    "support_filament": "0",
+    "support_interface_bottom_layers": "2",
+    "support_interface_filament": "0",
+    "support_interface_loop_pattern": "0",
+    "support_interface_not_for_body": "1",
+    "support_interface_pattern": "auto",
+    "support_interface_spacing": "0.5",
+    "support_interface_speed": [
+     "80"
+    ],
+    "support_interface_top_layers": "2",
+    "support_line_width": [
+     "0.42"
+    ],
+    "support_object_xy_distance": "0.35",
+    "support_on_build_plate_only": "0",
+    "support_remove_small_overhang": "1",
+    "support_speed": [
+     "150"
+    ],
+    "support_style": "default",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "normal(auto)",
+    "support_xy_overrides_z": "xy_overrides_z",
+    "thick_bridges": "0",
+    "thick_internal_bridges": "1",
+    "timelapse_type": "0",
+    "top_shell_layers": "4",
+    "top_shell_thickness": "1",
+    "top_solid_infill_flow_ratio": [
+     "1"
+    ],
+    "top_surface_acceleration": [
+     "2000"
+    ],
+    "top_surface_jerk": "8",
+    "top_surface_line_width": [
+     "0.42"
+    ],
+    "top_surface_pattern": "monotonicline",
+    "top_surface_speed": [
+     "200"
+    ],
+    "travel_acceleration": [
+     "10000"
+    ],
+    "travel_jerk": "12",
+    "travel_speed": [
+     "500"
+    ],
+    "travel_speed_z": [
+     "0"
+    ],
+    "tree_support_adaptive_layer_height": "1",
+    "tree_support_angle_slow": "25",
+    "tree_support_auto_brim": "1",
+    "tree_support_branch_angle": "45",
+    "tree_support_branch_angle_organic": "40",
+    "tree_support_branch_diameter": "2",
+    "tree_support_branch_diameter_angle": "5",
+    "tree_support_branch_diameter_double_wall": "3",
+    "tree_support_branch_diameter_organic": "2",
+    "tree_support_branch_distance": "5",
+    "tree_support_branch_distance_organic": "1",
+    "tree_support_brim_width": "3",
+    "tree_support_tip_diameter": "0.8",
+    "tree_support_top_rate": "30%",
+    "tree_support_wall_count": "0",
+    "wall_distribution_count": "1",
+    "wall_generator": "arachne",
+    "wall_infill_order": "inner wall/outer wall/infill",
+    "wall_loops": "2",
+    "wall_sequence": "inner wall/outer wall",
+    "wall_transition_angle": "10",
+    "wall_transition_filter_deviation": "25%",
+    "wall_transition_length": "100%",
+    "wipe_before_external_loop": "0",
+    "wipe_on_loops": "0",
+    "wipe_speed": "80%",
+    "wipe_tower_bridging": "10",
+    "wipe_tower_cone_angle": "0",
+    "wipe_tower_extra_spacing": "100%",
+    "wipe_tower_no_sparse_layers": "0",
+    "wipe_tower_rotation_angle": "0",
+    "wiping_volumes_extruders": [
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70"
+    ],
+    "xy_contour_compensation": "0",
+    "xy_hole_compensation": "0"
+   },
+   "padraoDaAltura": true
+  },
+  {
+   "nome": "0.32mm Standard @Creality Ender-3 V3 Plus 0.4 nozzle",
+   "alturaCamada": 0.32,
+   "config": {
+    "accel_to_decel_enable": "1",
+    "accel_to_decel_factor": "25%",
+    "acceleration_limit_mess": "[[0.5,1.0,100,6000],[1.0,1.5,80,5500],[1.5,2.0,60,5000]]",
+    "acceleration_limit_mess_enable": "0",
+    "adaptive_layer_height": "0",
+    "alternate_extra_wall": "0",
+    "bottom_shell_layers": "3",
+    "bottom_shell_thickness": "0",
+    "bottom_solid_infill_flow_ratio": "1",
+    "bottom_surface_pattern": "monotonic",
+    "bridge_acceleration": "50%",
+    "bridge_angle": "0",
+    "bridge_density": "100%",
+    "bridge_flow": "0.95",
+    "bridge_no_support": "0",
+    "bridge_speed": [
+     "25"
+    ],
+    "brim_ears_detection_length": "1",
+    "brim_ears_max_angle": "125",
+    "brim_object_gap": "0.3",
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "default_acceleration": [
+     "12000"
+    ],
+    "default_jerk": "12",
+    "detect_narrow_internal_solid_infill": "1",
+    "detect_overhang_wall": "1",
+    "detect_thin_wall": "0",
+    "draft_shield": "disabled",
+    "elefant_foot_compensation": "0.075",
+    "elefant_foot_compensation_layers": "1",
+    "enable_arc_fitting": "1",
+    "enable_overhang_speed": [
+     "1"
+    ],
+    "enable_prime_tower": "0",
+    "enable_support": "0",
+    "enforce_support_layers": "0",
+    "ensure_vertical_shell_thickness": "ensure_all",
+    "exclude_object": "1",
+    "extra_perimeters_on_overhangs": "0",
+    "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+    "filter_out_gap_fill": "0",
+    "flush_into_infill": "0",
+    "flush_into_objects": "0",
+    "flush_into_support": "1",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_first_layer": "0",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "0.3",
+    "gap_infill_speed": [
+     "250"
+    ],
+    "gcode_add_line_number": "0",
+    "gcode_comments": "0",
+    "gcode_label_objects": "1",
+    "hole_to_polyhole": "0",
+    "hole_to_polyhole_threshold": "0.01",
+    "hole_to_polyhole_twisted": "1",
+    "independent_support_layer_height": "1",
+    "infill_anchor": "400%",
+    "infill_anchor_max": "20",
+    "infill_combination": "0",
+    "infill_direction": "45",
+    "infill_jerk": "12",
+    "infill_wall_overlap": "25",
+    "initial_layer_acceleration": [
+     "2000"
+    ],
+    "initial_layer_infill_speed": [
+     "105"
+    ],
+    "initial_layer_jerk": "8",
+    "initial_layer_line_width": [
+     "0.55"
+    ],
+    "initial_layer_min_bead_width": "85%",
+    "initial_layer_print_height": "0.2",
+    "initial_layer_speed": [
+     "60"
+    ],
+    "initial_layer_travel_speed": "100%",
+    "inner_wall_acceleration": [
+     "5000"
+    ],
+    "inner_wall_jerk": "8",
+    "inner_wall_line_width": [
+     "0.45"
+    ],
+    "inner_wall_speed": [
+     "300"
+    ],
+    "interface_shells": "0",
+    "internal_bridge_flow": "1",
+    "internal_bridge_speed": [
+     "50"
+    ],
+    "internal_solid_infill_acceleration": "100%",
+    "internal_solid_infill_line_width": [
+     "0.42"
+    ],
+    "internal_solid_infill_pattern": "monotonic",
+    "internal_solid_infill_speed": [
+     "250"
+    ],
+    "ironing_angle": "-1",
+    "ironing_flow": "10%",
+    "ironing_pattern": "zig-zag",
+    "ironing_spacing": "0.15",
+    "ironing_speed": "30",
+    "ironing_support_layer": "0",
+    "ironing_type": "no ironing",
+    "is_infill_first": "0",
+    "layer_height": "0.32",
+    "line_width": [
+     "0.42"
+    ],
+    "make_overhang_printable": "0",
+    "make_overhang_printable_angle": "55",
+    "make_overhang_printable_hole_size": "0",
+    "max_bridge_length": "10",
+    "max_travel_detour_distance": "0",
+    "max_volumetric_extrusion_rate_slope": "0",
+    "max_volumetric_extrusion_rate_slope_segment_length": "3",
+    "min_bead_width": "85%",
+    "min_feature_size": "25%",
+    "min_width_top_surface": "300%",
+    "minimum_sparse_infill_area": "15",
+    "minimum_support_area": "5",
+    "mmu_segmented_region_interlocking_depth": "0",
+    "mmu_segmented_region_max_width": "0",
+    "only_one_wall_first_layer": "0",
+    "only_one_wall_top": "0",
+    "ooze_prevention": "0",
+    "outer_wall_acceleration": [
+     "5000"
+    ],
+    "outer_wall_jerk": "8",
+    "outer_wall_line_width": [
+     "0.42"
+    ],
+    "outer_wall_speed": [
+     "200"
+    ],
+    "overhang_1_4_speed": [
+     "0"
+    ],
+    "overhang_2_4_speed": [
+     "50"
+    ],
+    "overhang_3_4_speed": [
+     "30"
+    ],
+    "overhang_4_4_speed": [
+     "10"
+    ],
+    "overhang_reverse": "0",
+    "overhang_reverse_internal_only": "0",
+    "overhang_reverse_threshold": "50%",
+    "overhang_speed_classic": "0",
+    "overhang_totally_speed": [
+     "25"
+    ],
+    "precise_outer_wall": "1",
+    "prime_tower_brim_width": "3",
+    "prime_tower_width": "60",
+    "prime_volume": "45",
+    "print_flow_ratio": "1",
+    "print_sequence": "by layer",
+    "raft_contact_distance": "0.1",
+    "raft_expansion": "1.5",
+    "raft_first_layer_density": "90%",
+    "raft_first_layer_expansion": "2",
+    "raft_layers": "0",
+    "reduce_crossing_wall": "0",
+    "reduce_infill_retraction": "1",
+    "resolution": "0.012",
+    "role_based_wipe_speed": "1",
+    "seam_gap": "10%",
+    "seam_position": "aligned",
+    "single_extruder_multi_material_priming": "0",
+    "skirt_distance": "2",
+    "skirt_height": "1",
+    "skirt_loops": "0",
+    "skirt_speed": "50",
+    "slice_closing_radius": "0.049",
+    "slicing_mode": "regular",
+    "slow_down_layers": "4",
+    "slowdown_for_curled_perimeters": "0",
+    "small_perimeter_speed": [
+     "50%"
+    ],
+    "small_perimeter_threshold": [
+     "0"
+    ],
+    "sparse_infill_acceleration": [
+     "100%"
+    ],
+    "sparse_infill_density": "10",
+    "sparse_infill_line_width": [
+     "0.45"
+    ],
+    "sparse_infill_pattern": "zig-zag",
+    "sparse_infill_speed": [
+     "250"
+    ],
+    "speed_limit_to_height": "[[150,200,200,2000],[200,250,200,1500],[250,330,200,1000]]",
+    "speed_limit_to_height_enable": "1",
+    "spiral_mode": "0",
+    "spiral_mode_max_xy_smoothing": "200%",
+    "spiral_mode_smooth": "0",
+    "staggered_inner_seams": "0",
+    "standby_temperature_delta": "-5",
+    "support_angle": "0",
+    "support_base_pattern": "rectilinear",
+    "support_base_pattern_spacing": "2.5",
+    "support_bottom_interface_spacing": "0.5",
+    "support_bottom_z_distance": "0.2",
+    "support_critical_regions_only": "0",
+    "support_expansion": "0",
+    "support_filament": "0",
+    "support_interface_bottom_layers": "2",
+    "support_interface_filament": "0",
+    "support_interface_loop_pattern": "0",
+    "support_interface_not_for_body": "1",
+    "support_interface_pattern": "auto",
+    "support_interface_spacing": "0.5",
+    "support_interface_speed": [
+     "80"
+    ],
+    "support_interface_top_layers": "2",
+    "support_line_width": [
+     "0.42"
+    ],
+    "support_object_xy_distance": "0.35",
+    "support_on_build_plate_only": "0",
+    "support_remove_small_overhang": "1",
+    "support_speed": [
+     "150"
+    ],
+    "support_style": "default",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.2",
+    "support_type": "normal(auto)",
+    "support_xy_overrides_z": "xy_overrides_z",
+    "thick_bridges": "0",
+    "thick_internal_bridges": "1",
+    "timelapse_type": "0",
+    "top_shell_layers": "4",
+    "top_shell_thickness": "1.28",
+    "top_solid_infill_flow_ratio": [
+     "1"
+    ],
+    "top_surface_acceleration": [
+     "2000"
+    ],
+    "top_surface_jerk": "8",
+    "top_surface_line_width": [
+     "0.42"
+    ],
+    "top_surface_pattern": "monotonicline",
+    "top_surface_speed": [
+     "200"
+    ],
+    "travel_acceleration": [
+     "10000"
+    ],
+    "travel_jerk": "12",
+    "travel_speed": [
+     "500"
+    ],
+    "travel_speed_z": [
+     "0"
+    ],
+    "tree_support_adaptive_layer_height": "1",
+    "tree_support_angle_slow": "25",
+    "tree_support_auto_brim": "1",
+    "tree_support_branch_angle": "45",
+    "tree_support_branch_angle_organic": "40",
+    "tree_support_branch_diameter": "2",
+    "tree_support_branch_diameter_angle": "5",
+    "tree_support_branch_diameter_double_wall": "3",
+    "tree_support_branch_diameter_organic": "2",
+    "tree_support_branch_distance": "5",
+    "tree_support_branch_distance_organic": "1",
+    "tree_support_brim_width": "3",
+    "tree_support_tip_diameter": "0.8",
+    "tree_support_top_rate": "30%",
+    "tree_support_wall_count": "0",
+    "wall_distribution_count": "1",
+    "wall_generator": "arachne",
+    "wall_infill_order": "inner wall/outer wall/infill",
+    "wall_loops": "2",
+    "wall_sequence": "inner wall/outer wall",
+    "wall_transition_angle": "10",
+    "wall_transition_filter_deviation": "25%",
+    "wall_transition_length": "100%",
+    "wipe_before_external_loop": "0",
+    "wipe_on_loops": "0",
+    "wipe_speed": "80%",
+    "wipe_tower_bridging": "10",
+    "wipe_tower_cone_angle": "0",
+    "wipe_tower_extra_spacing": "100%",
+    "wipe_tower_no_sparse_layers": "0",
+    "wipe_tower_rotation_angle": "0",
+    "wiping_volumes_extruders": [
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70",
+     "70"
+    ],
+    "xy_contour_compensation": "0",
+    "xy_hole_compensation": "0"
+   },
+   "padraoDaAltura": true
+  }
+ ],
+ "filamentos": {
+  "padrao": "Generic PLA @Creality Ender-3 V3 Plus 0.4 nozzle",
+  "regras": [
+   {
+    "tipos": [
+     "PLA",
+     "SILK"
+    ],
+    "nomeContem": [
+     "silk"
+    ],
+    "perfil": "Generic PLA-Silk @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PLA",
+     "SILK"
+    ],
+    "nomeContem": [
+     "matte"
+    ],
+    "perfil": "CR-PLA Matte @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PLA",
+     "PLA+",
+     "PLA-S",
+     "SILK"
+    ],
+    "perfil": "Generic PLA @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PLA-CF"
+    ],
+    "perfil": "Generic PLA-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PLA-GF"
+    ],
+    "perfil": "Generic PLA-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PETG",
+     "PET"
+    ],
+    "perfil": "Generic PETG @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PETG-CF"
+    ],
+    "perfil": "Generic PETG-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PETG-GF"
+    ],
+    "perfil": "Generic PETG-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PET-CF"
+    ],
+    "perfil": "Generic PET-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PET-GF"
+    ],
+    "perfil": "Generic PET-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "ABS"
+    ],
+    "perfil": "Generic ABS @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "ABS-GF",
+     "ABS-CF"
+    ],
+    "perfil": "Generic ABS @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "ASA"
+    ],
+    "perfil": "Generic ASA @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "ASA-CF",
+     "ASA-GF"
+    ],
+    "perfil": "Generic ASA @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "TPU",
+     "TPU-AMS",
+     "TPU-95A",
+     "FLEX"
+    ],
+    "perfil": "Generic TPU @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "TPU-90A",
+     "TPU-64D"
+    ],
+    "perfil": "Generic TPU @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PC"
+    ],
+    "perfil": "Generic PC @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PC-ABS",
+     "PC-CF"
+    ],
+    "perfil": "Generic PC @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PA"
+    ],
+    "perfil": "Generic PA @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PA-CF"
+    ],
+    "perfil": "Generic PA-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PA6-CF",
+     "PAHT-CF",
+     "PA12-CF",
+     "PA-GF"
+    ],
+    "perfil": "Generic PA-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PPS"
+    ],
+    "perfil": "Generic PPS-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": false
+   },
+   {
+    "tipos": [
+     "PPS-CF"
+    ],
+    "perfil": "Generic PPS-CF @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "PVA"
+    ],
+    "perfil": "Generic PVA @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "BVOH"
+    ],
+    "perfil": "Generic BVOH @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   },
+   {
+    "tipos": [
+     "HIPS"
+    ],
+    "perfil": "Generic HIPS @Creality Ender-3 V3 Plus 0.4 nozzle",
+    "exato": true
+   }
+  ],
+  "perfis": {
+   "CR-PLA Matte @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "80"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "1"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_cds_fan_start_at_height": [
+     "0.5"
+    ],
+    "cool_plate_temp": [
+     "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "65"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "65"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "100"
+    ],
+    "fan_max_speed": [
+     "100"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "100"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "19"
+    ],
+    "filament_density": [
+     "1.3"
+    ],
+    "filament_deretraction_speed": "nil",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.95"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "18"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "nil",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "nil",
+    "filament_retract_when_changing_layer": "nil",
+    "filament_retraction_length": "nil",
+    "filament_retraction_minimum_travel": "nil",
+    "filament_retraction_speed": "nil",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PLA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Creality"
+    ],
+    "filament_wipe": "nil",
+    "filament_wipe_distance": "nil",
+    "filament_z_hop": "nil",
+    "filament_z_hop_types": "nil",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "65"
+    ],
+    "nozzle_temperature": [
+     "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "230"
+    ],
+    "nozzle_temperature_range_high": [
+     "240"
+    ],
+    "nozzle_temperature_range_low": [
+     "190"
+    ],
+    "overhang_fan_speed": [
+     "100"
+    ],
+    "overhang_fan_threshold": [
+     "50%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "4"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "60"
+    ],
+    "textured_plate_temp": [
+     "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "65"
+    ]
+   },
+   "Generic ABS @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "60"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "70"
+    ],
+    "filament_adhesiveness_category": [
+     "200"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "15"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "20"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "ABS"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "100"
+    ],
+    "nozzle_temperature": [
+     "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "260"
+    ],
+    "nozzle_temperature_range_high": [
+     "280"
+    ],
+    "nozzle_temperature_range_low": [
+     "240"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "100"
+    ]
+   },
+   "Generic ASA @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "55"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "35"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "70"
+    ],
+    "filament_adhesiveness_category": [
+     "200"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "30"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "14"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "ASA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "100"
+    ],
+    "nozzle_temperature": [
+     "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "260"
+    ],
+    "nozzle_temperature_range_high": [
+     "280"
+    ],
+    "nozzle_temperature_range_low": [
+     "240"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "100"
+    ]
+   },
+   "Generic BVOH @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "797"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "80"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "1"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "7"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "1"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "BVOH"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "60"
+    ],
+    "nozzle_temperature": [
+     "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "210"
+    ],
+    "nozzle_temperature_range_high": [
+     "220"
+    ],
+    "nozzle_temperature_range_low": [
+     "200"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "60"
+    ]
+   },
+   "Generic HIPS @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "50"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "30"
+    ],
+    "filament_adhesiveness_category": [
+     "798"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "20"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "4"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "HIPS"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "100"
+    ],
+    "nozzle_temperature": [
+     "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "240"
+    ],
+    "nozzle_temperature_range_high": [
+     "250"
+    ],
+    "nozzle_temperature_range_low": [
+     "220"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "100"
+    ]
+   },
+   "Generic PA @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "1"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "50"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "0"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "1"
+    ],
+    "eng_plate_temp": [
+     "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "100"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "5"
+    ],
+    "fan_max_speed": [
+     "30"
+    ],
+    "fan_min_speed": [
+     "30"
+    ],
+    "filament_adhesiveness_category": [
+     "400"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "50"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "1"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "2"
+    ],
+    "hot_plate_temp": [
+     "50"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "50"
+    ],
+    "nozzle_temperature": [
+     "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "260"
+    ],
+    "nozzle_temperature_range_high": [
+     "260"
+    ],
+    "nozzle_temperature_range_low": [
+     "240"
+    ],
+    "overhang_fan_speed": [
+     "40"
+    ],
+    "overhang_fan_threshold": [
+     "0%"
+    ],
+    "pressure_advance": [
+     "0.01"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "0"
+    ],
+    "required_nozzle_HRC": [
+     "40"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "2"
+    ],
+    "slow_down_min_speed": [
+     "20"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "108"
+    ],
+    "textured_plate_temp": [
+     "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "50"
+    ]
+   },
+   "Generic PA-CF @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "1"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "50"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "0"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "1"
+    ],
+    "eng_plate_temp": [
+     "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "100"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "5"
+    ],
+    "fan_max_speed": [
+     "30"
+    ],
+    "fan_min_speed": [
+     "30"
+    ],
+    "filament_adhesiveness_category": [
+     "400"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "45"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "1"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PA-CF"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "2"
+    ],
+    "hot_plate_temp": [
+     "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "100"
+    ],
+    "nozzle_temperature": [
+     "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "280"
+    ],
+    "nozzle_temperature_range_high": [
+     "300"
+    ],
+    "nozzle_temperature_range_low": [
+     "260"
+    ],
+    "overhang_fan_speed": [
+     "40"
+    ],
+    "overhang_fan_threshold": [
+     "0%"
+    ],
+    "pressure_advance": [
+     "0.01"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "0"
+    ],
+    "required_nozzle_HRC": [
+     "40"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "2"
+    ],
+    "slow_down_min_speed": [
+     "20"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "108"
+    ],
+    "textured_plate_temp": [
+     "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "100"
+    ]
+   },
+   "Generic PC @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "70"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "110"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "0"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "110"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "60"
+    ],
+    "fan_min_speed": [
+     "10"
+    ],
+    "filament_adhesiveness_category": [
+     "500"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "20"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.94"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PC"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "110"
+    ],
+    "nozzle_temperature": [
+     "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "260"
+    ],
+    "nozzle_temperature_range_high": [
+     "270"
+    ],
+    "nozzle_temperature_range_low": [
+     "250"
+    ],
+    "overhang_fan_speed": [
+     "60"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "2"
+    ],
+    "slow_down_min_speed": [
+     "20"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "120"
+    ],
+    "textured_plate_temp": [
+     "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "110"
+    ]
+   },
+   "Generic PET-CF @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "40"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "80"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "30"
+    ],
+    "filament_adhesiveness_category": [
+     "800"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "90"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PET-CF"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "80"
+    ],
+    "nozzle_temperature": [
+     "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "290"
+    ],
+    "nozzle_temperature_range_high": [
+     "320"
+    ],
+    "nozzle_temperature_range_low": [
+     "280"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "80"
+    ]
+   },
+   "Generic PETG @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "70"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "60"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "90"
+    ],
+    "fan_min_speed": [
+     "80"
+    ],
+    "filament_adhesiveness_category": [
+     "300"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "14"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.95"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "9"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PETG"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "70"
+    ],
+    "nozzle_temperature": [
+     "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "250"
+    ],
+    "nozzle_temperature_range_high": [
+     "270"
+    ],
+    "nozzle_temperature_range_low": [
+     "220"
+    ],
+    "overhang_fan_speed": [
+     "90"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "8"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "80"
+    ],
+    "textured_plate_temp": [
+     "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "70"
+    ]
+   },
+   "Generic PETG-CF @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "80"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "60"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "90"
+    ],
+    "fan_min_speed": [
+     "50"
+    ],
+    "filament_adhesiveness_category": [
+     "300"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "70"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.95"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PETG-CF"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "80"
+    ],
+    "nozzle_temperature": [
+     "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "250"
+    ],
+    "nozzle_temperature_range_high": [
+     "260"
+    ],
+    "nozzle_temperature_range_low": [
+     "240"
+    ],
+    "overhang_fan_speed": [
+     "90"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "8"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "80"
+    ],
+    "textured_plate_temp": [
+     "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "80"
+    ]
+   },
+   "Generic PLA @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "80"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_cds_fan_start_at_height": [
+     "0.5"
+    ],
+    "cool_plate_temp": [
+     "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "65"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "65"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "100"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "20"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.95"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "18"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PLA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "65"
+    ],
+    "nozzle_temperature": [
+     "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "230"
+    ],
+    "nozzle_temperature_range_high": [
+     "240"
+    ],
+    "nozzle_temperature_range_low": [
+     "190"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "65"
+    ]
+   },
+   "Generic PLA-CF @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "80"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "1"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_cds_fan_start_at_height": [
+     "500"
+    ],
+    "cool_plate_temp": [
+     "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "65"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "65"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "100"
+    ],
+    "fan_max_speed": [
+     "100"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "100"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "30"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.95"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "18"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PLA-CF"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "65"
+    ],
+    "nozzle_temperature": [
+     "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "230"
+    ],
+    "nozzle_temperature_range_high": [
+     "240"
+    ],
+    "nozzle_temperature_range_low": [
+     "190"
+    ],
+    "overhang_fan_speed": [
+     "100"
+    ],
+    "overhang_fan_threshold": [
+     "50%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "7"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "50"
+    ],
+    "textured_plate_temp": [
+     "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "65"
+    ]
+   },
+   "Generic PLA-Silk @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "80"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "1"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_cds_fan_start_at_height": [
+     "0.5"
+    ],
+    "cool_plate_temp": [
+     "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "65"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "65"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "60"
+    ],
+    "fan_max_speed": [
+     "100"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "100"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "20"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode "
+    ],
+    "filament_flow_ratio": [
+     "0.98"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PLA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "65"
+    ],
+    "nozzle_temperature": [
+     "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "200"
+    ],
+    "nozzle_temperature_range_high": [
+     "240"
+    ],
+    "nozzle_temperature_range_low": [
+     "190"
+    ],
+    "overhang_fan_speed": [
+     "100"
+    ],
+    "overhang_fan_threshold": [
+     "95%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "8"
+    ],
+    "slow_down_min_speed": [
+     "20"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "100"
+    ],
+    "textured_plate_temp": [
+     "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "65"
+    ]
+   },
+   "Generic PPS-CF @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "60"
+    ],
+    "close_fan_the_first_x_layers": [
+     "3"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "105"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "105"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "30"
+    ],
+    "fan_max_speed": [
+     "80"
+    ],
+    "fan_min_speed": [
+     "10"
+    ],
+    "filament_adhesiveness_category": [
+     "801"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "130"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.926"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.8",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PPS-CF"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "100"
+    ],
+    "nozzle_temperature": [
+     "305"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "305"
+    ],
+    "nozzle_temperature_range_high": [
+     "320"
+    ],
+    "nozzle_temperature_range_low": [
+     "305"
+    ],
+    "overhang_fan_speed": [
+     "80"
+    ],
+    "overhang_fan_threshold": [
+     "25%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "3"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "110"
+    ],
+    "textured_plate_temp": [
+     "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "100"
+    ]
+   },
+   "Generic PVA @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "0"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "60"
+    ],
+    "close_fan_the_first_x_layers": [
+     "1"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_plate_temp": [
+     "50"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "50"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "50"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "50"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "100"
+    ],
+    "fan_max_speed": [
+     "100"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "80"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "nil",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "0.98"
+    ],
+    "filament_is_support": [
+     "1"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "6"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "nil",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "nil",
+    "filament_retract_when_changing_layer": "nil",
+    "filament_retraction_length": "nil",
+    "filament_retraction_minimum_travel": "nil",
+    "filament_retraction_speed": "nil",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "1"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "PVA"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "nil",
+    "filament_wipe_distance": "nil",
+    "filament_z_hop": "nil",
+    "filament_z_hop_types": "nil",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "60"
+    ],
+    "nozzle_temperature": [
+     "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "220"
+    ],
+    "nozzle_temperature_range_high": [
+     "225"
+    ],
+    "nozzle_temperature_range_low": [
+     "215"
+    ],
+    "overhang_fan_speed": [
+     "100"
+    ],
+    "overhang_fan_threshold": [
+     "50%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "4"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "60"
+    ],
+    "textured_plate_temp": [
+     "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "60"
+    ]
+   },
+   "Generic TPU @Creality Ender-3 V3 Plus 0.4 nozzle": {
+    "activate_air_filtration": [
+     "0"
+    ],
+    "activate_chamber_temp_control": [
+     "0"
+    ],
+    "additional_cooling_fan_speed": [
+     "70"
+    ],
+    "bed_type": [
+     "Cool Plate"
+    ],
+    "chamber_temperature": [
+     "35"
+    ],
+    "close_fan_the_first_x_layers": [
+     "1"
+    ],
+    "complete_print_exhaust_fan_speed": [
+     "80"
+    ],
+    "cool_cds_fan_start_at_height": [
+     "0.5"
+    ],
+    "cool_plate_temp": [
+     "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+     "35"
+    ],
+    "default_filament_colour": [
+     ""
+    ],
+    "during_print_exhaust_fan_speed": [
+     "60"
+    ],
+    "enable_overhang_bridge_fan": [
+     "1"
+    ],
+    "enable_pressure_advance": [
+     "0"
+    ],
+    "eng_plate_temp": [
+     "35"
+    ],
+    "eng_plate_temp_initial_layer": [
+     "35"
+    ],
+    "epoxy_resin_plate_temp": [
+     "0"
+    ],
+    "epoxy_resin_plate_temp_initial_layer": [
+     "0"
+    ],
+    "fan_cooling_layer_time": [
+     "100"
+    ],
+    "fan_max_speed": [
+     "100"
+    ],
+    "fan_min_speed": [
+     "100"
+    ],
+    "filament_adhesiveness_category": [
+     "600"
+    ],
+    "filament_cooling_final_speed": [
+     "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+     "2.2"
+    ],
+    "filament_cooling_moves": [
+     "4"
+    ],
+    "filament_cost": [
+     "25"
+    ],
+    "filament_density": [
+     "1.24"
+    ],
+    "filament_deretraction_speed": "0",
+    "filament_diameter": [
+     "1.75"
+    ],
+    "filament_end_gcode": [
+     ";filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+     "1"
+    ],
+    "filament_is_support": [
+     "0"
+    ],
+    "filament_load_time": [
+     "0"
+    ],
+    "filament_loading_speed": [
+     "28"
+    ],
+    "filament_loading_speed_start": [
+     "3"
+    ],
+    "filament_max_volumetric_speed": [
+     "3.5"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+     "15"
+    ],
+    "filament_multitool_ramming": [
+     "0"
+    ],
+    "filament_multitool_ramming_flow": [
+     "10"
+    ],
+    "filament_multitool_ramming_volume": [
+     "10"
+    ],
+    "filament_notes": [
+     ""
+    ],
+    "filament_ramming_parameters": [
+     "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": "100%",
+    "filament_retract_lift_above": "0",
+    "filament_retract_lift_below": "0",
+    "filament_retract_lift_enforce": "All Surfaces",
+    "filament_retract_restart_extra": "0",
+    "filament_retract_when_changing_layer": "0",
+    "filament_retraction_length": "0.4",
+    "filament_retraction_minimum_travel": "2",
+    "filament_retraction_speed": "30",
+    "filament_shrink": [
+     "100%"
+    ],
+    "filament_soluble": [
+     "0"
+    ],
+    "filament_start_gcode": [
+     ";filament start gcode\n"
+    ],
+    "filament_toolchange_delay": [
+     "0"
+    ],
+    "filament_type": [
+     "TPU"
+    ],
+    "filament_unload_time": [
+     "0"
+    ],
+    "filament_unloading_speed": [
+     "90"
+    ],
+    "filament_unloading_speed_start": [
+     "100"
+    ],
+    "filament_vendor": [
+     "Generic"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": "1",
+    "filament_z_hop": "0.4",
+    "filament_z_hop_types": "Normal Lift",
+    "full_fan_speed_layer": [
+     "0"
+    ],
+    "hot_plate_temp": [
+     "35"
+    ],
+    "hot_plate_temp_initial_layer": [
+     "35"
+    ],
+    "nozzle_temperature": [
+     "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+     "230"
+    ],
+    "nozzle_temperature_range_high": [
+     "250"
+    ],
+    "nozzle_temperature_range_low": [
+     "200"
+    ],
+    "overhang_fan_speed": [
+     "100"
+    ],
+    "overhang_fan_threshold": [
+     "95%"
+    ],
+    "pressure_advance": [
+     "0.02"
+    ],
+    "reduce_fan_stop_start_freq": [
+     "1"
+    ],
+    "required_nozzle_HRC": [
+     "0"
+    ],
+    "slow_down_for_layer_cooling": [
+     "1"
+    ],
+    "slow_down_layer_time": [
+     "8"
+    ],
+    "slow_down_min_speed": [
+     "10"
+    ],
+    "support_material_interface_fan_speed": [
+     "-1"
+    ],
+    "temperature_vitrification": [
+     "60"
+    ],
+    "textured_plate_temp": [
+     "35"
+    ],
+    "textured_plate_temp_initial_layer": [
+     "35"
+    ]
+   }
+  }
+ },
+ "valoresAceitos": {
+  "printer_technology": [
+   "FFF",
+   "SLA"
+  ],
+  "printhost_authorization_type": [
+   "key",
+   "user"
+  ],
+  "first_layer_sequence_choice": [
+   "Auto",
+   "Customize",
+   "GraySafe"
+  ],
+  "other_layers_sequence_choice": [
+   "Auto",
+   "Customize",
+   "GraySafe"
+  ],
+  "gap_fill_target": [
+   "everywhere",
+   "nowhere",
+   "topbottom"
+  ],
+  "print_sequence": [
+   "by layer",
+   "by object"
+  ],
+  "print_order": [
+   "as_obj_list",
+   "default"
+  ],
+  "dont_filter_internal_bridges": [
+   "disabled",
+   "limited",
+   "nofilter"
+  ],
+  "ensure_vertical_shell_thickness": [
+   "ensure_all",
+   "ensure_critical_only",
+   "ensure_moderate",
+   "none"
+  ],
+  "top_surface_pattern": [
+   "alignedrectilinear",
+   "archimedeanchords",
+   "concentric",
+   "hilbertcurve",
+   "monotonic",
+   "monotonicline",
+   "octagramspiral",
+   "zig-zag"
+  ],
+  "wall_sequence": [
+   "adaptive outer wall/inner wall",
+   "inner wall/outer wall",
+   "inner-outer-inner wall",
+   "outer wall/inner wall"
+  ],
+  "wall_direction": [
+   "auto",
+   "ccw",
+   "cw"
+  ],
+  "cooling_slowdown_logic": [
+   "Consistent surface",
+   "Don't slow down outer walls",
+   "Smart cooling zones(Beta)",
+   "Uniform cooling"
+  ],
+  "filament_map_mode": [
+   "AutoForMatch",
+   "AutoForSaving",
+   "Manual"
+  ],
+  "tpms_gradual_direction": [
+   "gradualdir_x",
+   "gradualdir_y",
+   "gradualdir_z"
+  ],
+  "cell_type": [
+   "gyroid",
+   "tpmsd",
+   "tpmsfk"
+  ],
+  "sparse_infill_pattern": [
+   "3dhoneycomb",
+   "adaptivecubic",
+   "alignedrectilinear",
+   "archimedeanchords",
+   "concentric",
+   "cross",
+   "cross-zag",
+   "cross3d",
+   "crosshatch",
+   "cubic",
+   "field",
+   "grid",
+   "gyroid",
+   "hilbertcurve",
+   "honeycomb",
+   "lateral-honeycomb",
+   "lateral-lattice",
+   "lightning",
+   "line",
+   "locked-zag",
+   "octagramspiral",
+   "quarter_cubic",
+   "supportcubic",
+   "tetrahedral",
+   "tpms_gradual_d",
+   "tpms_gradual_fk",
+   "tpms_gradual_g",
+   "tpmsd",
+   "tpmsfk",
+   "tri-hexagon",
+   "triangles",
+   "zig-zag",
+   "zig-zag2"
+  ],
+  "locked_skin_infill_pattern": [
+   "3dhoneycomb",
+   "alignedrectilinear",
+   "archimedeanchords",
+   "concentric",
+   "cross-zag",
+   "crosshatch",
+   "cubic",
+   "grid",
+   "gyroid",
+   "hilbertcurve",
+   "honeycomb",
+   "line",
+   "octagramspiral",
+   "tpmsd",
+   "tri-hexagon",
+   "triangles",
+   "zig-zag",
+   "zig-zag2"
+  ],
+  "locked_skeleton_infill_pattern": [
+   "3dhoneycomb",
+   "alignedrectilinear",
+   "archimedeanchords",
+   "concentric",
+   "cross-zag",
+   "crosshatch",
+   "cubic",
+   "grid",
+   "gyroid",
+   "hilbertcurve",
+   "honeycomb",
+   "line",
+   "octagramspiral",
+   "tpmsd",
+   "tri-hexagon",
+   "triangles",
+   "zig-zag",
+   "zig-zag2"
+  ],
+  "fuzzy_skin": [
+   "all",
+   "allwalls",
+   "external",
+   "none"
+  ],
+  "fuzzy_skin_mode": [
+   "combined",
+   "displacement",
+   "extrusion"
+  ],
+  "fuzzy_skin_noise_type": [
+   "billow",
+   "classic",
+   "perlin",
+   "ridgedmulti",
+   "voronoi"
+  ],
+  "nozzle_type": [
+   "brass",
+   "hardened_steel",
+   "stainless_steel",
+   "undefine"
+  ],
+  "printer_structure": [
+   "corexy",
+   "delta",
+   "hbot",
+   "i3",
+   "undefine"
+  ],
+  "bed_temperature_mode": [
+   "use_first_material",
+   "use_max_temperature"
+  ],
+  "gcode_flavor": [
+   "klipper",
+   "mach3",
+   "machinekit",
+   "makerware",
+   "marlin",
+   "marlin2",
+   "no-extrusion",
+   "repetier",
+   "reprapfirmware",
+   "sailfish",
+   "smoothie",
+   "teacup"
+  ],
+  "prime_tower_position_type": [
+   "Left Below",
+   "Left Center",
+   "Left Upper",
+   "Middle Below",
+   "Middle Center",
+   "Middle Upper",
+   "Right Below",
+   "Right Center",
+   "Right Upper"
+  ],
+  "ironing_type": [
+   "no ironing",
+   "solid",
+   "top",
+   "topmost"
+  ],
+  "ironing_pattern": [
+   "concentric",
+   "zig-zag"
+  ],
+  "nozzle_variant_volume_types": [
+   "High Flow",
+   "Hybrid",
+   "Standard",
+   "TPU High Flow"
+  ],
+  "host_type": [
+   "astrobox",
+   "crealityPrint",
+   "duet",
+   "esp3d",
+   "flashair",
+   "flashforge",
+   "mks",
+   "obico",
+   "octoprint",
+   "prusaconnect",
+   "prusalink",
+   "repetier",
+   "simplyprint"
+  ],
+  "z_hop_types": [
+   "Auto Lift",
+   "Normal Lift",
+   "Slope Lift",
+   "Slope Lift,Slope Lift",
+   "Spiral Lift"
+  ],
+  "retract_lift_enforce": [
+   "All Surfaces",
+   "All Surfaces,All Surfaces",
+   "Bottom Only",
+   "Top Only",
+   "Top and Bottom"
+  ],
+  "seam_position": [
+   "aligned",
+   "aligned_back",
+   "assemble_zgap",
+   "back",
+   "nearest",
+   "random"
+  ],
+  "seam_slope_type": [
+   "all",
+   "external",
+   "none"
+  ],
+  "draft_shield": [
+   "disabled",
+   "enabled",
+   "limited"
+  ],
+  "skirt_type": [
+   "combined",
+   "perobject"
+  ],
+  "slicing_mode": [
+   "close_holes",
+   "even_odd",
+   "regular"
+  ],
+  "support_type": [
+   "normal(auto)",
+   "normal(manual)",
+   "tree(auto)",
+   "tree(manual)"
+  ],
+  "support_xy_overrides_z": [
+   "xy_overrides_z",
+   "z_overrides_xy"
+  ],
+  "support_base_pattern": [
+   "cross",
+   "default",
+   "gyroid",
+   "hollow",
+   "honeycomb",
+   "lightning",
+   "rectilinear",
+   "rectilinear-grid",
+   "triangles",
+   "zigzag"
+  ],
+  "support_base_pattern_tree": [
+   "cross",
+   "default",
+   "gyroid",
+   "hollow",
+   "honeycomb",
+   "lightning",
+   "rectilinear",
+   "rectilinear-grid",
+   "triangles",
+   "zigzag"
+  ],
+  "support_interface_pattern": [
+   "auto",
+   "concentric",
+   "grid",
+   "monotonicline",
+   "rectilinear",
+   "rectilinear_interlaced"
+  ],
+  "support_style": [
+   "default",
+   "grid",
+   "organic",
+   "snug",
+   "tree_hybrid",
+   "tree_slim",
+   "tree_strong"
+  ],
+  "support_ironing_pattern": [
+   "concentric",
+   "rectilinear"
+  ],
+  "prime_tower_enhance_type": [
+   "chamfer",
+   "cone",
+   "corner_rib"
+  ],
+  "prime_tower_start_ironing": [
+   "0",
+   "1"
+  ],
+  "thumbnails_format": [
+   "BTT_TFT",
+   "COLPIC",
+   "CR_PNG",
+   "JPG",
+   "PNG",
+   "QOI"
+  ],
+  "wall_generator": [
+   "arachne",
+   "classic"
+  ],
+  "display_orientation": [
+   "landscape",
+   "portrait"
+  ],
+  "support_pillar_connection_mode": [
+   "cross",
+   "dynamic",
+   "zigzag"
+  ],
+  "material_print_speed": [
+   "fast",
+   "slow"
+  ]
+ }
+}

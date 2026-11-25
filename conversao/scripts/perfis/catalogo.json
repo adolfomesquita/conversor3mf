@@ -1,0 +1,588 @@
+{
+  "_comentario": "Entrada do gerador (scripts/gerar-perfis.mjs). Gera um perfil por modelo+bico de cada fabricante listado, a partir do slicer da fabricante instalado. 'cores' define o máximo de cores por modelo (com a fonte de cada valor). 'sobrescritas' fixa regras de filamento escritas à mão para perfis já conferidos num slicer real. Ver README: 'Como adicionar uma nova impressora'.",
+  "fabricantes": {
+    "anycubic": {
+      "fabricante": "Anycubic",
+      "pastas": [
+        "Anycubic"
+      ],
+      "pacotePerfis": "Anycubic.json",
+      "slicer": {
+        "nome": "Anycubic Slicer Next",
+        "versaoApp": "2.0.0.3",
+        "versaoProjeto": "2.0.0.3",
+        "aplicacao": "BambuStudio-2.0.0.3"
+      },
+      "tipoMesa": "Textured PEI Plate",
+      "processoPadraoContem": "Standard"
+    },
+    "flashforge": {
+      "fabricante": "Flashforge",
+      "pastas": [
+        "Flashforge",
+        "OrcaFilamentLibrary"
+      ],
+      "pacotePerfis": "Flashforge.json",
+      "slicer": {
+        "nome": "Orca-Flashforge (Flash Studio Desktop)",
+        "versaoApp": "Flash Studio Desktop 1.7.21",
+        "versaoProjeto": "02.06.00.51",
+        "aplicacao": "BambuStudio-02.06.00.51"
+      },
+      "tipoMesa": "Textured PEI Plate",
+      "processoPadraoContem": "Standard"
+    },
+    "bambu": {
+      "fabricante": "Bambu Lab",
+      "pastas": [
+        "BBL"
+      ],
+      "pacotePerfis": "BBL.json",
+      "slicer": {
+        "nome": "Bambu Studio",
+        "versaoApp": "02.09.01.70",
+        "versaoProjeto": "02.09.01.70",
+        "aplicacao": "BambuStudio-02.09.01.70",
+        "reescreverAplicacao": "sempre",
+        "formatoProjeto": "bambu-2"
+      },
+      "tipoMesa": "Textured PEI Plate",
+      "processoPadraoContem": "Standard"
+    },
+    "creality": {
+      "fabricante": "Creality",
+      "pastas": [
+        "Creality"
+      ],
+      "pacotePerfis": "Creality.json",
+      "slicer": {
+        "nome": "Creality Print",
+        "versaoApp": "7.3.1.6378",
+        "versaoProjeto": "7.3.1.6378",
+        "aplicacao": "Creality_Print V7.3.1.6378 Release",
+        "reescreverAplicacao": "sempre"
+      },
+      "tipoMesa": "Textured PEI Plate",
+      "processoPadraoContem": "Standard"
+    },
+    "snapmaker": {
+      "fabricante": "Snapmaker",
+      "pastas": [
+        "Snapmaker"
+      ],
+      "pacotePerfis": "Snapmaker.json",
+      "slicer": {
+        "nome": "Snapmaker Orca",
+        "versaoApp": "2.4.1",
+        "versaoProjeto": "2.4.1",
+        "aplicacao": "Snapmaker_Orca-2.4.1",
+        "reescreverAplicacao": "sempre"
+      },
+      "tipoMesa": "Textured PEI Plate",
+      "processoPadraoContem": "Standard"
+    }
+  },
+  "excluirModelos": [
+    "Bambu Lab H2C",
+    "Bambu Lab H2D",
+    "Bambu Lab H2D Pro",
+    "Bambu Lab X2D",
+    "Creality Sermoon D3 Pro",
+    "Creality K3"
+  ],
+  "cores": {
+    "Anycubic Kobra S1": {
+      "max": 8,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "decisão do usuário (dois ACE Pro)"
+    },
+    "Anycubic Kobra S1 Max": {
+      "max": 8,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido por analogia com o Kobra S1 (ACE Pro) — a confirmar"
+    },
+    "Anycubic Kobra 3": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um ACE Pro — a confirmar"
+    },
+    "Anycubic Kobra 3 V2": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um ACE Pro — a confirmar"
+    },
+    "Anycubic Kobra 3 Max": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um ACE Pro — a confirmar"
+    },
+    "Anycubic Kobra 3 Max V2": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um ACE Pro — a confirmar"
+    },
+    "Flashforge AD5X": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "sistema IFS de 4 cores"
+    },
+    "Flashforge Creator 5": {
+      "max": 4,
+      "multiMaterial": "trocaDeFerramenta",
+      "fonte": "4 cabeçotes (perfil)"
+    },
+    "Flashforge Creator 5 Pro": {
+      "max": 4,
+      "multiMaterial": "trocaDeFerramenta",
+      "fonte": "4 cabeçotes (perfil)"
+    },
+    "Bambu Lab X1 Carbon": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab X1": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab X1E": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab P1S": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab P1P": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab P2S": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab H2S": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab H3C": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 AMS de 4 cores no Bambu Studio — a confirmar"
+    },
+    "Bambu Lab A1": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: AMS lite (4 cores) — a confirmar"
+    },
+    "Bambu Lab A1 mini": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: AMS lite (4 cores) — a confirmar"
+    },
+    "Bambu Lab A2L": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: AMS lite (4 cores) — a confirmar"
+    },
+    "Creality K2 Plus": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar"
+    },
+    "Creality K2 Pro": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar"
+    },
+    "Creality K2": {
+      "max": 16,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: até 4 CFS de 4 cores no Creality Print — a confirmar"
+    },
+    "Creality K1_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality K1C_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality K1C 2025_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality K1 Max_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality K1 Max 2025_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality K1 SE_CFS-C": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: um CFS de 4 cores (variante CFS-C) — a confirmar"
+    },
+    "Creality Hi": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: Hi Combo com sistema de 4 cores — a confirmar"
+    },
+    "SPARKX i7": {
+      "max": 4,
+      "multiMaterial": "trocaComPurga",
+      "fonte": "assumido: sistema multicor de 4 cores — a confirmar"
+    }
+  },
+  "_coresPadrao": "Modelo fora da tabela: o número de extrusoras do perfil (troca de ferramenta) ou 1 cor (a confirmar).",
+  "sobrescritas": {
+    "anycubic-kobra-s1-0.4": {
+      "filamentos": {
+        "padrao": "Generic PLA @Anycubic Kobra S1 0.4 nozzle",
+        "regras": [
+          {
+            "tipos": [
+              "PLA"
+            ],
+            "nomeContem": [
+              "silk"
+            ],
+            "perfil": "Generic PLA Silk @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA"
+            ],
+            "nomeContem": [
+              "matte"
+            ],
+            "perfil": "Anycubic PLA Matte @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA",
+              "PLA+",
+              "PLA-S"
+            ],
+            "perfil": "Generic PLA @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA-CF",
+              "PLA-GF"
+            ],
+            "perfil": "Anycubic PLA-CF @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PETG",
+              "PET"
+            ],
+            "perfil": "Generic PETG @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PETG-CF",
+              "PETG-GF"
+            ],
+            "perfil": "Anycubic PETG-CF @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PET-CF",
+              "PET-GF"
+            ],
+            "perfil": "Anycubic PET-CF @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ABS",
+              "ABS-GF",
+              "ABS-CF"
+            ],
+            "perfil": "Generic ABS @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ASA",
+              "ASA-CF",
+              "ASA-GF"
+            ],
+            "perfil": "Anycubic ASA @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "TPU",
+              "TPU-AMS",
+              "FLEX",
+              "TPU-90A",
+              "TPU-95A"
+            ],
+            "perfil": "Generic TPU @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PC",
+              "PC-ABS",
+              "PC-CF"
+            ],
+            "perfil": "Anycubic PC @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PA6-CF"
+            ],
+            "perfil": "Anycubic PA6-CF @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PA",
+              "PA-CF",
+              "PAHT-CF",
+              "PA-GF",
+              "PA12-CF"
+            ],
+            "perfil": "Anycubic PA6-CF @Anycubic Kobra S1 0.4 nozzle",
+            "exato": false
+          },
+          {
+            "tipos": [
+              "PEBA"
+            ],
+            "perfil": "Anycubic PEBA @Anycubic Kobra S1 0.4 nozzle",
+            "exato": true
+          }
+        ]
+      }
+    },
+    "flashforge-creator-5-0.4": {
+      "filamentos": {
+        "padrao": "Generic PLA @FF C5",
+        "regras": [
+          {
+            "tipos": [
+              "PLA",
+              "SILK"
+            ],
+            "nomeContem": [
+              "silk"
+            ],
+            "perfil": "Generic PLA Silk @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA"
+            ],
+            "nomeContem": [
+              "matte"
+            ],
+            "perfil": "Flashforge PLA Matte @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "SILK"
+            ],
+            "perfil": "Generic PLA Silk @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA",
+              "PLA+",
+              "PLA-S"
+            ],
+            "perfil": "Generic PLA @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PLA-CF",
+              "PLA-GF"
+            ],
+            "perfil": "Generic PLA-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PETG",
+              "PET"
+            ],
+            "perfil": "Generic PETG @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PETG-CF",
+              "PETG-GF"
+            ],
+            "perfil": "Generic PETG-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PET-CF",
+              "PET-GF"
+            ],
+            "perfil": "Flashforge PET-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ABS"
+            ],
+            "perfil": "Generic ABS @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ABS-GF",
+              "ABS-CF"
+            ],
+            "perfil": "Flashforge ABS-GF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ASA"
+            ],
+            "perfil": "Generic ASA @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ASA-CF"
+            ],
+            "perfil": "Flashforge ASA-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "ASA-GF"
+            ],
+            "perfil": "Flashforge ASA-GF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "TPU",
+              "TPU-AMS",
+              "TPU-95A",
+              "FLEX"
+            ],
+            "perfil": "Generic TPU-95A @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "TPU-90A"
+            ],
+            "perfil": "Generic TPU-90A @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "TPU-64D"
+            ],
+            "perfil": "Generic TPU-64D @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PA-CF",
+              "PA",
+              "PA-GF",
+              "PA12-CF"
+            ],
+            "perfil": "Generic PA-CF @FF C5",
+            "exato": false
+          },
+          {
+            "tipos": [
+              "PA6-CF"
+            ],
+            "perfil": "Flashforge PA6-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PAHT-CF"
+            ],
+            "perfil": "Flashforge PAHT-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PPS-CF",
+              "PPS"
+            ],
+            "perfil": "Flashforge PPS-CF @FF C5",
+            "exato": false
+          },
+          {
+            "tipos": [
+              "PPA-CF"
+            ],
+            "perfil": "Flashforge PPA-CF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PPA-GF"
+            ],
+            "perfil": "Flashforge PPA-GF @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "PVA"
+            ],
+            "perfil": "Generic PVA @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "BVOH"
+            ],
+            "perfil": "Generic BVOH @FF C5",
+            "exato": true
+          },
+          {
+            "tipos": [
+              "HIPS"
+            ],
+            "perfil": "Generic HIPS @FF C5",
+            "exato": true
+          }
+        ]
+      }
+    }
+  },
+  "_excluirModelos": "Bambu Lab H2C/H2D/H2D Pro/X2D: dois bicos; o mapeamento de filamentos por bico (filament_map, variantes por extrusora) ainda não é feito pela conversão."
+}

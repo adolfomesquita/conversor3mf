@@ -1,0 +1,122 @@
+# Imagens das impressoras
+
+Copiadas por conversao/scripts/gerar-perfis.mjs (--capas). Primeiro do repositório oficial do OrcaSlicer;
+quando o modelo não existe lá, da instalação do slicer da fabricante.
+
+- Repositório: https://github.com/OrcaSlicer/OrcaSlicer
+- Commit: 32dbacb4231c772af9837ff08e2945625067f1ba 2026-11-12
+- Licença do repositório: GNU AGPL-3.0 (ver LICENSE.txt do repositório). As imagens provavelmente são das fabricantes.
+
+- anycubic-kobra-1-max.png: slicer da fabricante (Anycubic Slicer Next), Anycubic Kobra 1 Max_cover.png
+- anycubic-kobra-1-plus.png: slicer da fabricante (Anycubic Slicer Next), Anycubic Kobra 1 Plus_cover.png
+- anycubic-kobra-1.png: slicer da fabricante (Anycubic Slicer Next), Anycubic Kobra 1_cover.png
+- anycubic-kobra-2-max.png: repositório OrcaSlicer, Anycubic Kobra 2 Max_cover.png
+- anycubic-kobra-2-neo.png: repositório OrcaSlicer, Anycubic Kobra 2 Neo_cover.png
+- anycubic-kobra-2-plus.png: repositório OrcaSlicer, Anycubic Kobra 2 Plus_cover.png
+- anycubic-kobra-2-pro.png: repositório OrcaSlicer, Anycubic Kobra 2 Pro_cover.png
+- anycubic-kobra-2.png: repositório OrcaSlicer, Anycubic Kobra 2_cover.png
+- anycubic-kobra-3-max-v2.png: slicer da fabricante (Anycubic Slicer Next), Anycubic Kobra 3 Max V2_cover.png
+- anycubic-kobra-3-max.png: repositório OrcaSlicer, Anycubic Kobra 3 Max_cover.png
+- anycubic-kobra-3-v2.png: repositório OrcaSlicer, Anycubic Kobra 3 V2_cover.png
+- anycubic-kobra-3.png: repositório OrcaSlicer, Anycubic Kobra 3_cover.png
+- anycubic-kobra-4.png: slicer da fabricante (Anycubic Slicer Next), Anycubic Kobra 4_cover.png
+- anycubic-kobra-s1-max.png: repositório OrcaSlicer, Anycubic Kobra S1 Max_cover.png
+- anycubic-kobra-s1.png: repositório OrcaSlicer, Anycubic Kobra S1_cover.png
+- anycubic-kobra-x.png: repositório OrcaSlicer, Anycubic Kobra X_cover.png
+- bambu-lab-a1-mini.png: repositório OrcaSlicer, Bambu Lab A1 mini_cover.png
+- bambu-lab-a1.png: repositório OrcaSlicer, Bambu Lab A1_cover.png
+- bambu-lab-a2l.png: repositório OrcaSlicer, Bambu Lab A2L_cover.png
+- bambu-lab-h2s.png: repositório OrcaSlicer, Bambu Lab H2S_cover.png
+- bambu-lab-h3c.png: repositório oficial do Bambu Studio, Bambu Lab H3C_cover.png
+- bambu-lab-p1p.png: repositório OrcaSlicer, Bambu Lab P1P_cover.png
+- bambu-lab-p1s.png: repositório OrcaSlicer, Bambu Lab P1S_cover.png
+- bambu-lab-p2s.png: repositório OrcaSlicer, Bambu Lab P2S_cover.png
+- bambu-lab-x1-carbon.png: repositório OrcaSlicer, Bambu Lab X1 Carbon_cover.png
+- bambu-lab-x1.png: repositório OrcaSlicer, Bambu Lab X1_cover.png
+- bambu-lab-x1e.png: repositório OrcaSlicer, Bambu Lab X1E_cover.png
+- creality-cr-10-se.png: repositório OrcaSlicer, Creality CR-10 SE_cover.png
+- creality-cr-10-smart-pro.png: repositório OrcaSlicer, Creality CR-10 Smart Pro_cover.png
+- creality-cr-10-smart.png: repositório OrcaSlicer, Creality CR-10 Smart_cover.png
+- creality-cr-10.png: repositório OrcaSlicer, Creality CR-10_cover.png
+- creality-cr-10s-pro-v2.png: repositório OrcaSlicer, Creality CR-10S Pro V2_cover.png
+- creality-cr-20-pro.png: repositório OrcaSlicer, Creality CR-20 Pro_cover.png
+- creality-cr-30.png: repositório oficial do Creality Print, Creality CR-30_cover.png
+- creality-cr-6-se.png: repositório OrcaSlicer, Creality CR-6 SE_cover.png
+- creality-cr-m4-se.png: repositório OrcaSlicer, Creality CR-M4 SE_cover.png
+- creality-cr-m4.png: repositório OrcaSlicer, Creality CR-M4_cover.png
+- creality-ender-2-pro.png: repositório OrcaSlicer, Creality Ender-2 Pro_cover.png
+- creality-ender-3-max-neo.png: repositório OrcaSlicer, Creality Ender-3 Max Neo_cover.png
+- creality-ender-3-max.png: repositório OrcaSlicer, Creality Ender-3 Max_cover.png
+- creality-ender-3-neo.png: repositório OrcaSlicer, Creality Ender-3 Neo_cover.png
+- creality-ender-3-s1-plus.png: repositório OrcaSlicer, Creality Ender-3 S1 Plus_cover.png
+- creality-ender-3-s1-pro.png: repositório OrcaSlicer, Creality Ender-3 S1 Pro_cover.png
+- creality-ender-3-s1.png: repositório OrcaSlicer, Creality Ender-3 S1_cover.png
+- creality-ender-3-v2.png: repositório OrcaSlicer, Creality Ender-3 V2_cover.png
+- creality-ender-3-v3-ke.png: repositório OrcaSlicer, Creality Ender-3 V3 KE_cover.png
+- creality-ender-3-v3-mega.png: repositório oficial do Creality Print, Creality Ender-3 V3 Mega_cover.png
+- creality-ender-3-v3-neo.png: repositório oficial do Creality Print, Creality Ender-3 V3 Neo_cover.png
+- creality-ender-3-v3-plus.png: repositório OrcaSlicer, Creality Ender-3 V3 Plus_cover.png
+- creality-ender-3-v3-se.png: repositório OrcaSlicer, Creality Ender-3 V3 SE_cover.png
+- creality-ender-3-v3.png: repositório OrcaSlicer, Creality Ender-3 V3_cover.png
+- creality-ender-3-v4.png: repositório OrcaSlicer, Creality Ender-3 V4_cover.png
+- creality-ender-3.png: repositório OrcaSlicer, Creality Ender-3_cover.png
+- creality-ender-5-max.png: repositório OrcaSlicer, Creality Ender-5 Max_cover.png
+- creality-ender-5-plus.png: repositório OrcaSlicer, Creality Ender-5 Plus_cover.png
+- creality-ender-5-s1.png: repositório OrcaSlicer, Creality Ender-5 S1_cover.png
+- creality-gs-01.png: repositório oficial do Creality Print, Creality GS-01_cover.png
+- creality-gs-02.png: repositório oficial do Creality Print, Creality GS-02_cover.png
+- creality-gs-03.png: repositório oficial do Creality Print, Creality GS-03_cover.png
+- creality-gs-04.png: repositório oficial do Creality Print, Creality GS-04_cover.png
+- creality-hi.png: repositório OrcaSlicer, Creality Hi_cover.png
+- creality-k1-cfs-c.png: repositório OrcaSlicer, Creality K1_CFS-C_cover.png
+- creality-k1-max-2025-cfs-c.png: repositório oficial do Creality Print, Creality K1 Max 2025_CFS-C_cover.png
+- creality-k1-max-cfs-c.png: repositório OrcaSlicer, Creality K1 Max_CFS-C_cover.png
+- creality-k1-max.png: repositório OrcaSlicer, Creality K1 Max_cover.png
+- creality-k1-se-cfs-c.png: repositório OrcaSlicer, Creality K1 SE_CFS-C_cover.png
+- creality-k1-se.png: repositório OrcaSlicer, Creality K1 SE_cover.png
+- creality-k1.png: repositório OrcaSlicer, Creality K1_cover.png
+- creality-k1c-2025-cfs-c.png: repositório oficial do Creality Print, Creality K1C 2025_CFS-C_cover.png
+- creality-k1c-cfs-c.png: repositório OrcaSlicer, Creality K1C_CFS-C_cover.png
+- creality-k1c.png: repositório OrcaSlicer, Creality K1C_cover.png
+- creality-k2-plus.png: repositório OrcaSlicer, Creality K2 Plus_cover.png
+- creality-k2-pro.png: repositório OrcaSlicer, Creality K2 Pro_cover.png
+- creality-k2-se.png: repositório OrcaSlicer, Creality K2 SE_cover.png
+- creality-k2.png: repositório OrcaSlicer, Creality K2_cover.png
+- creality-mbox.png: repositório oficial do Creality Print, Creality mBox_cover.png
+- creality-sermoon-d3.png: repositório OrcaSlicer, Creality Sermoon D3_cover.png
+- creality-sermoon-m300.png: repositório OrcaSlicer, Creality Sermoon M300_cover.png
+- creality-sermoon-v1-pro.png: repositório OrcaSlicer, Creality Sermoon V1 Pro_cover.png
+- creality-sonic-ender-3-s1.png: repositório oficial do Creality Print, Creality Sonic_Ender-3 S1_cover.png
+- creality-sonic-ender-5-s1.png: repositório oficial do Creality Print, Creality Sonic_Ender-5 S1_cover.png
+- creality-z2.png: repositório oficial do Creality Print, Creality Z2_cover.png
+- flashforge-ad5x.png: repositório OrcaSlicer, Flashforge AD5X_cover.png
+- flashforge-adventurer-3-series.png: repositório OrcaSlicer, Flashforge Adventurer 3 Series_cover.png
+- flashforge-adventurer-5m-pro.png: repositório OrcaSlicer, Flashforge Adventurer 5M Pro_cover.png
+- flashforge-adventurer-5m.png: repositório OrcaSlicer, Flashforge Adventurer 5M_cover.png
+- flashforge-adventurer-a5.png: repositório OrcaSlicer, Flashforge Adventurer A5_cover.png
+- flashforge-creator-5-pro.png: repositório OrcaSlicer, Flashforge Creator 5 Pro_cover.png
+- flashforge-creator-5.png: repositório OrcaSlicer, Flashforge Creator 5_cover.png
+- flashforge-guider-3-ultra.png: repositório OrcaSlicer, Flashforge Guider 3 Ultra_cover.png
+- flashforge-guider4-pro.png: repositório OrcaSlicer, Flashforge Guider4 Pro_cover.png
+- flashforge-guider4.png: repositório OrcaSlicer, Flashforge Guider4_cover.png
+- snapmaker-a250-bkit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 BKit_cover.png
+- snapmaker-a250-dual-bkit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 Dual BKit_cover.png
+- snapmaker-a250-dual-qs-b-kit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 Dual QS+B Kit_cover.png
+- snapmaker-a250-dual-qskit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 Dual QSKit_cover.png
+- snapmaker-a250-dual.png: repositório oficial do Snapmaker Orca, Snapmaker A250 Dual_cover.png
+- snapmaker-a250-qs-b-kit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 QS+B Kit_cover.png
+- snapmaker-a250-qskit.png: repositório oficial do Snapmaker Orca, Snapmaker A250 QSKit_cover.png
+- snapmaker-a250.png: repositório oficial do Snapmaker Orca, Snapmaker A250_cover.png
+- snapmaker-a350-bkit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 BKit_cover.png
+- snapmaker-a350-dual-bkit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 Dual BKit_cover.png
+- snapmaker-a350-dual-qs-b-kit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 Dual QS+B Kit_cover.png
+- snapmaker-a350-dual-qskit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 Dual QSKit_cover.png
+- snapmaker-a350-dual.png: repositório oficial do Snapmaker Orca, Snapmaker A350 Dual_cover.png
+- snapmaker-a350-qs-b-kit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 QS+B Kit_cover.png
+- snapmaker-a350-qskit.png: repositório oficial do Snapmaker Orca, Snapmaker A350 QSKit_cover.png
+- snapmaker-a350.png: repositório oficial do Snapmaker Orca, Snapmaker A350_cover.png
+- snapmaker-artisan.png: repositório oficial do Snapmaker Orca, Snapmaker Artisan_cover.png
+- snapmaker-j1.png: repositório oficial do Snapmaker Orca, Snapmaker J1_cover.png
+- snapmaker-u1.png: repositório oficial do Snapmaker Orca, Snapmaker U1_cover.png
+- sparkx-i7.png: repositório oficial do Creality Print, SPARKX i7_cover.png
+- sparkx-i8.png: repositório oficial do Creality Print, SPARKX i8_cover.png

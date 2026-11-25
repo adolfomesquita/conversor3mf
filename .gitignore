@@ -1,0 +1,22 @@
+# Dependências e builds
+node_modules/
+site/dist/
+conversao/lib/
+coverage/
+*.tsbuildinfo
+
+# Variáveis de ambiente (o site não usa segredos; por garantia)
+.env
+.env.*
+
+# Ferramentas
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
+
+# Projetos convertidos para conferência manual (podem conter modelos de terceiros)
+amostras-convertidas/
+*.3mf

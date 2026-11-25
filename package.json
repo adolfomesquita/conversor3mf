@@ -1,0 +1,13 @@
+{
+  "name": "conversor3mf",
+  "private": true,
+  "description": "Converte projetos .3mf entre impressoras 3D, inteiramente no navegador",
+  "scripts": {
+    "instalar": "npm --prefix conversao install && npm --prefix site install",
+    "dev": "npm --prefix site run dev",
+    "build": "npm --prefix site run build",
+    "test": "npm --prefix conversao test",
+    "lint": "npm --prefix conversao run lint && npm --prefix site run lint",
+    "audit": "npm --prefix conversao audit --audit-level=high && npm --prefix site audit --audit-level=high"
+  }
+}
