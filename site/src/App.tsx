@@ -81,12 +81,10 @@ export function App() {
       <footer className="rodape">
         <div className="container rodape-conteudo">
           <span>
-            © {new Date().getFullYear()} {NOME_APP} · grátis, sem cadastro, tudo no seu navegador
+            © {new Date().getFullYear()} {NOME_APP} · grátis, sem cadastro
           </span>
           <nav aria-label="Legal">
-            <a href="#privacidade">Privacidade e termos</a>
-            {CONFIGURACAO.codigoFonte && <a href={CONFIGURACAO.codigoFonte}>Código-fonte</a>}
-          </nav>
+            <a href="#privacidade">Privacidade e termos</a>          </nav>
         </div>
       </footer>
     </div>
